@@ -184,7 +184,7 @@ En aquest apartat detalla la configuració adoptada per el qüestionari que es m
 S'aconsella la importació automàtica del formulari, donat que configurar-ho a mà és força feina:
  per importar el qüestionari:
     - accedir al menú _Configuració de Qüestionaris > Configuració de Qüestionaris_
-    - Clicar IMPORTA, i seleccionar el fitxer [Qüestionari Bústia Ètica i de Bon Govern.json](https://github.com/jbitlloch/hello-world/tree/redactant/questionnaire) del repositori
+    - Clicar IMPORTA, i seleccionar el fitxer [Qüestionari Bústia Ètica i de Bon Govern.json](questionnaire) del repositori
 
 per configurar el context:
     - accedir al menú _Configuració de Contextos_
@@ -364,7 +364,7 @@ xxxxxxxxxxxxxxxxxx pendent incloure-ho
 ## 5. Configuració del tema visual: _Configuració General > Personalització del tema_
 Opcions per personalitzar el tema visual: colors, tipus de lletra, imatges.
 
-Dins del repositori, s'allotja al directori [theme](https://github.com/jbitlloch/hello-world/tree/redactant/theme)
+Dins del repositori, s'allotja al directori [theme](theme)
 S'inclou un fitxer javascript, un fitxer css, i un directori amb varis fitxers estàtics d'imatges i fonts de lletra.  S'inclouen tots els fitxers necessaris dins Globaleaks de manera que al consultar el web de la Bústia ètica no es carregui **cap recurs extern**.
 
 Al fitxer CSS hi trobem:
@@ -382,7 +382,7 @@ Fitxers estàtics d'imatges i fonts de lletra:
 	- Menys.png
 	- Mes.png
 - Fonts de lletra:
-	- Els fonts de lletra tenen la seva pròpia [llicència Open Font](https://github.com/jbitlloch/hello-world/blob/redactant/theme/static-files/LICENSE).
+	- Els fonts de lletra tenen la seva pròpia [llicència Open Font](theme/static-files/LICENSE).
 	- SourceSansPro-Bold.eot 
 	- SourceSansPro-Bold.otf
 	- SourceSansPro-Bold.otf.woff
