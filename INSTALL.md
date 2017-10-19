@@ -349,7 +349,7 @@ Es detalla en aquest apartat els missatges traduïts específicament, per adapta
 | Recipient | Destinatari | Receptor |
 | Just to prove you are human, please answer the following math challenge: | Per demostrar-nos que ets una persona, si us plau, resol el repte matemàtic següent: | Resol el següent repte matemàtic: |
 | This file exceeds the maximum upload size for this server. | Aquest fitxer ultrapassa el pes màxim que es pot pujar al servidor. | Aquest fitxer supera la mida màxima que permet el servidor. |
-| Downloading a file with malicious content could compromise your computer or disclose your identity. | La descàrrega d'un arxiu amb contingut maliciós podria posar en perill el seu ordinador o revelar la seva identitat. |  xxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxx |
+| Downloading a file with malicious content could compromise your computer or disclose your identity. | La descàrrega d'un arxiu amb contingut maliciós podria posar en perill el seu ordinador o revelar la seva identitat. |  Si vols assegurar al màxim el teu anonimat, descarrega aquest fitxer, analitza’l amb un antivirus actualitzat i obre'l sempre sense connexió a internet. |
 | The specified input is not valid: | La informació que has introduït no és vàlida: | La informació que heu introduït no és vàlida:  |
 
 
