@@ -220,24 +220,15 @@ Passos configurats:
         -Telèfon
             Tipus: Entrada de text d'una sola línia
 
-
     (3) Condicions i Regles d'Ús
       Descripció: 
             ● La presentació de comunicacions a la bústia implica acceptar les seves normes reguladores disponibles al peu de pàgina,  aprovades per acord de la Comissió de Govern de 6 d'octubre de 2016, especialment les condicions d'ús.
- 
             ● La persona que fa la comunicació és responsable de l’ús incorrecte de la bústia ètica i del contingut de les comunicacions formulades. L'Ajuntament de Barcelona restarà exempt de tota responsabilitat. 
-
             ● No es poden formular comunicacions amb una finalitat diferent de la prevista a les normes reguladores de la bústia, que vulnerin els drets fonamentals a l’honor, a la imatge i a la intimitat personal i familiar de terceres persones, que siguin contràries a la dignitat de la persona o que lesionin la legislació de protecció de dades de caràcter personal. 
-
             ● En cas de litigi entre la persona que fa la comunicació i terceres persones, l’Ajuntament restarà exempt de qualsevol reclamació, demanda o dany de qualsevol naturalesa relacionats amb el litigi. 
-
              ● Les comunicacions no comporten, en cap cas, la formulació d'un recurs administratiu, ni l'exercici de qualsevol acció o reclamació a la qual tinguin dret les persones que les formulen. 
-
              ● Les recomanacions formulades per l'òrgan gestor de la bústia són tràmits no qualificats i no són recurribles. Les recomanacions tenen per finalitat millorar la gestió pública, no declaren l'existència de responsabilitat ni de vulneració de l'ordenament jurídic.
-
               ● L’òrgan gestor de la bústia podrà requerir qualsevol altra informació que pugui tenir qui la presenti. L’Ajuntament no està obligat a retornar la documentació que es pugui presentar amb la comunicació.
-
-
 
     (4) Acceptació      
       Preguntes preconfigurades:
@@ -246,9 +237,8 @@ Passos configurats:
             Descripció: Per tramitar la comunicació cal acceptar les condicions i regles d'ús de la bústia.
             Requerit: SI
             Text de l'acord:  En marcar aquesta casella, accepteu les condicions i regles d'ús de la Bústia Ètica i de Bon Govern.
-
-
 </pre>
+
 #### castellà
 <pre>
 (1)Descripción
@@ -260,29 +250,19 @@ Passos configurats:
     Descripción:  
             ● Si prefieres no identificarte, no rellenes estos campos y ve al paso siguiente.
             ● Si te identificas, de acuerdo con la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal, te informamos de que tus datos personales se incorporarán al fichero "Comunicaciones del Buzón Ético y de Buen Gobierno del Ayuntamiento de Barcelona ", con el fin de gestionar las comunicaciones en el Buzón Ético y de Buen Gobierno y de atención al público. Tus datos sólo se cederán cuando sean requeridos por los juzgados y tribunales en ejercicio de su función jurisdiccional o por la Fiscalía en ejercicio de las facultades de investigación. Consientes expresamente el tratamiento de tus datos para la finalidad indicada. Puedes ejercitar los derechos de acceso, rectificación, cancelación y oposición, dirigiéndote por escrito al Registro General del Ayuntamiento (plaza de Sant Jaume, 1, 08002 Barcelona), indicando claramente en el asunto "Ejercicio de derecho LOPD".​
-
     -Nombre y Apellido
     -NIF o número de pasaporte
     -Dirección electrónica
     -Teléfono
 
 (3)Condiciones y Reglas de uso
-
             ● La presentación de comunicaciones en el buzón implica aceptar sus normas reguladoras disponibles en el pie de página, aprobadas por acuerdo de la Comisión de Gobierno de 6 de octubre de 2016, especialmente las condiciones de uso. 
-
             ● La persona que hace la comunicación es responsable del uso incorrecto del buzón ético y del contenido de las comunicaciones formuladas. El Ayuntamiento de Barcelona quedará exento de toda responsabilidad. 
-
             ● No se pueden formular comunicaciones con una finalidad diferente de la prevista a las normas reguladoras del buzón, que vulneren los derechos fundamentales al honor, a la imagen y a la intimidad personal y familiar de terceras personas, que sean contrarias a la dignidad de la persona o que lesionen la legislación de protección de datos de carácter personal. 
-
             ● En caso de litigio entre la persona que realiza la comunicación y terceras personas, el Ayuntamiento quedará exento de cualquier reclamación, demanda o daño de cualquier naturaleza relacionados con el litigio. 
-
             ● Las comunicaciones no comportan, en ningún caso, la formulación de un recurso administrativo ni el ejercicio de cualquier acción o reclamación a la que tengan derecho las personas que las formulan. 
-
             ● Las recomendaciones formuladas por el órgano gestor del buzón son trámites no cualificados y no son recurribles. Las recomendaciones tienen como objetivo mejorar la gestión pública, no declaran la existencia de responsabilidad ni de vulneración del ordenamiento jurídico.
- 
             ● El órgano gestor del buzón podrá requerir cualquier otra información que pueda tener quien la presente. El Ayuntamiento no está obligado a devolver la documentación que se pueda presentar con la comunicación.
-
- 
 
 (4)Aceptación
     -Validación
@@ -339,12 +319,51 @@ Es detalla en aquest apartat els missatges traduïts específicament, per adapta
 | Downloading a file with malicious content could compromise your computer or disclose your identity. | La descàrrega d'un arxiu amb contingut maliciós podria posar en perill el seu ordinador o revelar la seva identitat. |  Si vols assegurar al màxim el teu anonimat, descarrega aquest fitxer, analitza’l amb un antivirus actualitzat i obre'l sempre sense connexió a internet. |
 | The specified input is not valid: | La informació que has introduït no és vàlida: | La informació que heu introduït no és vàlida:  |
 
-
 ---
 
 ### Castellà
 
-xxxxxxxxxxxxxxxxxx pendent incloure-ho
+| Texto original | Traducción original | Traducción personalizada |
+| --------------------------- | --------------------------- | --------------------------- |
+| We do not discriminate based on race and gender, but we do against computers :) | No discriminamos por raza, sexo o género, pero si lo hacemos con las computadoras :) | Demuestra que no eres un robot. |
+| Hint | Sugerencia | Sugerencia: |
+| Submission errors | Falta información en los siguientes pasos: | Falta información en los siguientes pasos: |
+| Comments | Comentarios | Comunicación con el agente |
+| Questionnaire answers | Respuestas al cuestionario | Descripción inicial |
+| Blow the whistle | Aporte información | INICIO DE LA COMUNICACIÓN |
+| I've solved the math challenge, hide this thing now! | He resuelto el reto matemático, ¡ahora oculte esta cosa! | Hecho |
+| Use the 16 digit key code to log in. It will allow you to view any messages we sent you, and also to add extra info. | Use el código de clave de 16 dígitos para iniciar sesión. Le permitirá ver cualquier mensaje que le enviemos, además de poder añadir información extra para completar. | El órgano gestor del buzón utilizará, de manera prioritaria, este canal seguro, y garantizará el anonimato y la confidencialidad de las comunicaciones. |
+| Are you sure? | ¿Está seguro? |  |
+| Errors in this step | Errores en este paso | Los siguientes campos no se han rellenado correctamente: |
+| Upload completed successfully! | ¡Subida completada con éxito! | La carga se ha completado satisfactoriamente. |
+| Whistleblower | Informante | Comunicador |
+| The key code is either invalid or the submission has expired. | El código de su clave o bien no es válido o la entrega ha caducado. | El código alfanumérico es inválido. |
+| The following steps have errors: | Los siguientes pasos tienen errores: |  |
+| Logout | Cerrar sesión | Salir |
+| View your submission | Ver su entrega | Accede a la comunicación |
+| We will try to get back to you as soon as possible! | ¡Intentaremos contactar con usted tan pronto como sea posible! | Hay que conservar este código de dieciséis dígitos para: - Acceder a la comunicación. - Comunicarse con el órgano gestor del buzón y consultar los mensajes recibidos. - Añadir ficheros o información adicional. - Conocer el estado de tramitación de la comunicación. |
+| Example: | Ejemplo: | Podéis hacer uso de este ejemplo: |
+| Attached files for the whistleblower | Ficheros adjuntados por el informante | Los ficheros adjuntos para el comunicador |
+| Your submission was successful. | ¡Su entrega se completó con éxito! | La información se ha recibido correctamente. Conserva el código para realizar el seguimiento de la comunicación. |
+| next step | paso siguiente | Paso siguiente |
+| Submission | Entrega | Envío |
+| Please review the following information and decide if you wish to proceed. | Por favor, revise la siguiente información y decida si desea continuar. | Por favor, revise la siguiente información antes de continuar |
+| Remember your key code for this submission. | Recuerde el código de su clave para esta entrega. | El código para este envío es: |
+| These files have been attached to your submission by the recipients. | Estos ficheros han sido adjuntados a su entrega por los receptores. | El receptor adjunta estos archivos a la comunicación. |
+| A useful way to hide your key code is to write it down like a credit card number, i.e. by also including an expiration date. | Una forma útil de ocultar el código de su clave es escribirlo como si fuera un número de tarjeta de crédito, es decir, incluyendo también una fecha de caducidad. | Una manera útil de recordar el código es escribirlo como si fuera el número de una tarjeta de crédito. |
+| The name of the file and its content can be intentionally misleading. | El nombre del fichero y su contenido pueden ser intencionadamente equívocos. |  |
+| please enter a valid email address. | por favor, introduzca una dirección de correo electrónico válida. | introduce una dirección electrónica correcta. |
+| Log in | Iniciar sesión | ACCESO |
+| YOUR NAME | SU NOMBRE | Documentación aportada |
+| Files attached by recipients | Ficheros adjuntados por los destinatarios | Documentación generada por el órgano gestor del buzón |
+| Cannot log in | No se pudo iniciar sesión | No se puede acceder  |
+| Danger | Peligro | Atención |
+| The answers to the following questions are either missing or invalid: | Las respuestas a las siguientes preguntas están ausentes o no son válidas: |  |
+| Recipient | Receptor | Receptor |
+| Just to prove you are human, please answer the following math challenge: | Tan solo para probar que usted es humano, por favor. responda al siguiente reto matemático: | Resuelve el siguiente reto matemático:  |
+| This file exceeds the maximum upload size for this server. | Este fichero excede el tamaño máximo de subida para este servidor. | Este fichero supera la medida máxima que permite el servidor. |
+| Downloading a file with malicious content could compromise your computer or disclose your identity. | Descargar un fichero con contenido malicioso podría comprometer su computadora o desvelar su identidad. | Si quieres asegurar al máximo tu anonimato, descarga este archivo, analízalo con un antivirus actualizado y ábrelo siempre sin conexión a internet. |
+| The specified input is not valid: | La entrada especificada no es válida: | La información que has introducido no es válida:  |
 
 ---
 
