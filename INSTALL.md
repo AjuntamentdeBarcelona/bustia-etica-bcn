@@ -73,108 +73,95 @@ Per entrar la informació dels diferents idiomes, cal que canviem l'idioma corre
 #### Català
 Detall de la configuració de cada una de les opcions d'aquesta secció:
 
-Nom de la iniciativa 
-- Bústia Ètica i de Bon Govern
 
-Títol de la pàgina d'inici
-- Oficina per a la Transparència i les Bones Pràctiques
+| paràmetre | valor |
+| --------------- | -------------- |
+| Nom de la iniciativa | Bústia Ètica i de Bon Govern |
+| Títol de la pàgina d'inici | Oficina per a la Transparència i les Bones Pràctiques |
+| Presentació | Canal segur de participació per enfortir la integritat del sector públic |
+| Descripció | Si heu detectat una mala praxi i podeu aportar proves respecte d'això, envieu la informació a través d'aquest canal. |
+| Peu de pàgina | Ajuntament de Barcelona Amb la col•laboració d'X-NET |
+| Pàgina d'aterratge  | _(selecció de :   “pàgina d’inici”)_ |
+| Pregunta per sol•licitar possibles informadors  | Utilitzant l'aplicació podreu fer que s'investigui el cas i s'actuï per millorar la integritat del sector públic. Assegureu-vos de conèixer l'àmbit d'actuació i les eines d'anonimat. |
+| Botó de l'informador  | INICI DE LA COMUNICACIÓ |
+| Text que apareix perquè els informadors entrin a la plataforma | Si voleu consultar l'estat de tramitació o aportar més informació sobre una comunicació anterior, introduïu el codi alfanumèric d'accés: |
+| Títol de la pàgina de l'entrega | Bústia Ètica i de Bon Govern |
+| Títol de la pàgina de la confirmació de la recepció | Bústia Ètica i de Bon Govern |
+| Títol de la pàgina de l'estatus de l'entrega | Estat de la Comunicació - Bústia Ètica i de Bon Govern |
+| Títol del widget dels comentaris | Comunicació amb l'òrgan gestor de la bústia |
+| Títol del widget dels missatges | Descripció inicial |
+| Títol del widget dels adjunts | Documentació aportada |
+| El text es mostra a sobre de la interfície per seleccionar els contextos | _(en blanc)_ |
+| Mostra contextos en ordre alfabètic: | _(NO)_ |
+| Tipus de selector de context: | _ (seleccionat:  “llista”)_ |
+| Tor Onion Services (URL) | _(en blanc)_ |
+| Lloc web HTTPS (URL) | _(aquí cal especificar l'adreça interna de gestió de continguts. En el cas de la Bústia de l'Ajuntament és una adreça interna de la xarxa corporativa, no accessible des d'internet, amb un domini diferenciat)_ |
+| enllaç de descàrrega del navegador TOR  | https://www.torproject.org/download/download |
 
-Presentació
-- Canal segur de participació per enfortir la integritat del sector públic
-
-Descripció
-- Si heu detectat una mala praxi i podeu aportar proves respecte d'això, envieu la informació a través d'aquest canal.
-
-Peu de pàgina
-- Ajuntament de Barcelona Amb la col·laboració d'X-NET
-
-Pàgina d'aterratge 
-- (selecció de :   “pàgina d’inici”)
-
-Pregunta per sol·licitar possibles informadors
-- Utilitzant l'aplicació podreu fer que s'investigui el cas i s'actuï per millorar la integritat del sector públic. Assegureu-vos de conèixer l'àmbit d'actuació i les eines d'anonimat.
-
-Botó de l'informador 
-- INICI DE LA COMUNICACIÓ
-
-Text que apareix perquè els informadors entrin a la plataforma
-- Si voleu consultar l'estat de tramitació o aportar més informació sobre una comunicació anterior, introduïu el codi alfanumèric d'accés:
-
-Títol de la pàgina de l'entrega
-- Bústia Ètica i de Bon Govern
-
-Títol de la pàgina de la confirmació de la recepció
-- Bústia Ètica i de Bon Govern
-
-Títol de la pàgina de l'estatus de l'entrega
-- Estat de la Comunicació | Bústia Ètica i de Bon Govern
-
-Títol del widget dels comentaris
-- Comunicació amb l'òrgan gestor de la bústia
-
-Títol del widget dels missatges
-- Descripció inicial
-
-Títol del widget dels adjunts
-- Documentació aportada
-
-El text es mostra a sobre de la interfície per seleccionar els contextos
--	*(en blanc)*
-
-Mostra contextos en ordre alfabètic: 
--	(NO)
-
-Tipus de selector de context: 
-- (seleccionat: 	“llista”)
-
-Tor Onion Services (URL) 
-- *(en blanc)*
-
-Lloc web HTTPS (URL) 
-- *(aquí cal especificar l'adreça interna de gestió de continguts. En el cas de la Bústia de l'Ajuntament és una adreça interna de la xarxa corporativa, no accessible des d'internet, amb un domini diferenciat)*
-
-enllaç de descàrrega del navegador TOR 
-- https://www.torproject.org/download/download
 
 ---
 
 #### Castellà
 
-xxxx pendent incloure-ho
+| paràmetre | valor |
+| --------------- | -------------- |
+| Nombre de la iniciativa | Bústia Ètica i de Bon Govern |
+| Título de la página principal | Oficina para la Transparencia y las Buenas Prácticas |
+| Presentación | Canal seguro de participación para fortalecer la integridad del sector público |
+| Descripción | Si has detectado una mala praxis y puedes aportar pruebas al respecto, envía la información a través de este canal. |
+| Pie de página | Ayuntamiento de Barcelona, con la colaboración de Xnet |
+| Página de inicio | _(Selecció de: “pagina principal”)_ |
+| Pregunta a formular a posibles informantes | Utilizando la aplicación podrás hacer que se investigue el caso y se actúe para mejorar la integridad del sector público. Asegúrate de conocer el ámbito de actuación y las herramientas de anonimato. |
+| Botón de aporte de información  | INICIO DE LA COMUNICACIÓN |
+| Texto del requerimiento a los informantes para iniciar sesión | Si quieres consultar el estado de tramitación o aportar más información sobre una comunicación anterior, introduce el código alfanumérico de acceso: |
+| Título de la página de entrega | Buzón Ético y de Buen Gobierno |
+| Título de la página de recibo | Buzón Ético y de Buen Gobierno |
+| Título de la página de estado de la entrega | Estado de la comunicación - Buzón Ético y de Buen Gobierno |
+| Título del indicador de comentarios | Comunicación con el órgano gestor del buzón |
+| Título del indicador de mensajes | Descripción inicial |
+| Título del indicador de adjuntos | Documentación aportada |
+| Texto mostrado en la parte superior de la interfaz para seleccionar contextos |  _(en blanc)_ |
+| Mostrar contextos por orden alfabético | _(desactivat)_ |
+| Selector de tipo de contexto:  |  _(Seleccionat:  “llista”)_ |
+| Servicio Tor onion (URL) | _(en blanc)_ |
+| Sitio web HTTPS (URL)  |  _(aquí indiquem la URL interna de la xarxa corporativa)_ |
+| Enlace de descarga del Navegador Tor  | https://www.torproject.org/download/download |
 
 ---
 
 ### Paràmetres del sistema:  _Configuració avançada > Configuració principal_
 Per cada opció, s'indica si està activada (SI) o desactivada (NO), o bé si és un camp de text el valor que s'ha especificat. En negreta marcats els que no són valors per defecte:
 
-- NO | Deshabilita els enviaments
-- **NO | Habilita configuració insegura sense xifrat PGP**
-- NO | Deshabilita els missatges que adverteixen de la manca de xifratge
-- NO | Permet que altres webs incloguin la plataforma a l'interior d'Iframes
-- NO | Permet que els destinataris posposin la caducitat del lliurament
-- NO | Permet que els destinataris esborrin els lliuraments
-- NO | Permet als destinataris concedir permisos als informadors sobre determinats enviaments
-- **NO | Habilita els motors de cerca d'indexació**
-- **SI | Habilita distintiu personalitzat de privacitat (Habilitat)**
- - Tauler de privacitat del client (El text es mostra quan l'informador fa servir Tor): **""** 
- - **Tauler de privacitat del client (El text es mostra quan l'informador no fa servir Tor): "Si no vols deixar el rastre de l’adreça IP i vols navegar de manera anònima, utilitza el navegador TOR"**
-- NO | Deshabilita el distintiu de privacitat
-- Títol del tauler de conscienciació de la seguretat: "Atenció! No ets anònim."
-- Text del tauler de conscienciació de la seguretat: "Enviar lliuraments mitjançant HTTPS exposa ...."
-- **SI | Deshabilita les preguntes del distintiu de conscienciació de seguretat**
-- **SI | Deshabilita el distintiu de conscienciació de seguretat**
-- **SI | Deshabilita el toc del codi d'accés**
-- **SI | Deshabilita el tauler de donació**
-- SI | Activa el mecanisme CAPTCHA
-- SI | Activa el mecanisme de prova de funcionament
-- NO | Activa l'accés simplificat per als destinataris
-- Límit per a la informació introduïda d'una única línia, en caràcters : 128
-- Límit per a la informació introduïda de diverses línies, en caràcters: 4096
-- Límit de mida per als arxius adjunts en megabytes :   30
-- **Quantitat de dies fins a l'accés dels informadors expira: 180**  
-- **Contrasenya de l'usuari per defecte: "xHyeur1jdfhAa"  (és un exemple: es recomana posar una de pròpia diferent de 'globaleaks')**
-- NO | Activa l'autenticació bàsica d'HTTP per limitar l'accés a la plataforma
-- NO | Activa els trets experimentals
+| valor | paràmetre |
+| ---------- | ------------ |
+| NO | Deshabilita els enviaments |
+| **NO** | **Habilita configuració insegura sense xifrat PGP** |
+| NO | Deshabilita els missatges que adverteixen de la manca de xifratge |
+| NO | Permet que altres webs incloguin la plataforma a l'interior d'Iframes |
+| NO | Permet que els destinataris posposin la caducitat del lliurament |
+| NO | Permet que els destinataris esborrin els lliuraments |
+| NO | Permet als destinataris concedir permisos als informadors sobre determinats enviaments |
+| **NO** | **Habilita els motors de cerca d'indexació** |
+| **SI** | **Habilita distintiu personalitzat de privacitat (Habilitat)** |
+| _(en blanc)_ | Tauler de privacitat del client (El text es mostra quan l'informador fa servir Tor) |
+| **"Si no vols deixar el rastre de l’adreça IP i vols navegar de manera anònima, utilitza el navegador TOR"** | **Tauler de privacitat del client (El text es mostra quan l'informador no fa servir Tor):** |
+| NO | Deshabilita el distintiu de privacitat |
+| "Atenció! No ets anònim." | Títol del tauler de conscienciació de la seguretat: |
+| "Enviar lliuraments mitjançant HTTPS exposa ...." | Text del tauler de conscienciació de la seguretat: |
+| **SI** | **Deshabilita les preguntes del distintiu de conscienciació de seguretat** |
+| **SI** | **Deshabilita el distintiu de conscienciació de seguretat** |
+| **SI** | **Deshabilita el toc del codi d'accés** |
+| **SI** | **Deshabilita el tauler de donació** |
+| SI | Activa el mecanisme CAPTCHA |
+| SI | Activa el mecanisme de prova de funcionament |
+| NO | Activa l'accés simplificat per als destinataris |
+| 128 | Límit per a la informació introduïda d'una única línia, en caràcters |
+| 4096 | Límit per a la informació introduïda de diverses línies, en caràcters |
+| 30 |  Límit de mida per als arxius adjunts en megabytes  |
+| **180** |  **Quantitat de dies fins a l'accés dels informadors expira: **   |
+| **_(es recomana posar una de pròpia diferent de 'globaleaks')_** | **Contrasenya de l'usuari per defecte** |
+| NO | Activa l'autenticació bàsica d'HTTP per limitar l'accés a la plataforma |
+| NO | Activa els trets experimentals |
 
 ---
 
