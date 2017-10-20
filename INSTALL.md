@@ -1,4 +1,4 @@
-# ![logo](https://ajuntament.barcelona.cat/bustiaetica/sites/all/themes/bcn_bootstrap/images/ico1.png)_Instal·lació_ - Bústia Ètica i de Bon Govern
+# _Instal·lació_ - Bústia Ètica i de Bon Govern
 
 1. Instal·lació de Globaleaks
 2. Configuració opcions de la Bústia
