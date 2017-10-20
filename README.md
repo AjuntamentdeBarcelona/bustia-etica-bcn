@@ -1,4 +1,4 @@
-# ![logo](https://ajuntament.barcelona.cat/bustiaetica/sites/all/themes/bcn_bootstrap/images/ico1.png)_Llegeix-me_ - Bústia Ètica i de Bon Govern
+# _Llegeix-me_ - Bústia Ètica i de Bon Govern
 
 1. Llicència de la Bústia Ètica i de Bon Govern
 2. Trets característics de la Bústia ètica i de Bon Govern
