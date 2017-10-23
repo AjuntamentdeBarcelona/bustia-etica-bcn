@@ -1,3 +1,6 @@
+**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan. Contact us if you need a Spanish or English translation (check our mail at the end of the document).
+
+
 # _Llegeix-me_ - Bústia Ètica i de Bon Govern
 
 1. Llicència de la Bústia Ètica i de Bon Govern
