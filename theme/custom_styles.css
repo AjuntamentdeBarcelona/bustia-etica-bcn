@@ -3,75 +3,50 @@
 /* --- Brand css --- */ /* Tipografies corporatives  */ /* Banner 2015 - Web fonts */
 @font-face {
     font-family: "Source Sans Pro";
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/EOT/SourceSansPro-Regular.eot */
     src: url("/s/SourceSansPro-Regular.eot") format("embedded-opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF2/TTF/SourceSansPro-Regular.ttf.woff2 */
     url("/s/SourceSansPro-Regular.ttf.woff2") format("woff2"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF/OTF/SourceSansPro-Regular.otf.woff */
     url("/s/SourceSansPro-Regular.otf.woff") format("woff"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/OTF/SourceSansPro-Regular.otf */
     url("/s/SourceSansPro-Regular.otf") format("opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/TTF/SourceSansPro-Regular.ttf */
     url("/s/SourceSansPro-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
     font-family: "SourceSansProItalic";
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/EOT/SourceSansPro-It.eot */
     src: url("/s/SourceSansPro-It.eot") format("embedded-opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF2/TTF/SourceSansPro-It.ttf.woff2 */
     url("/s/SourceSansPro-It.ttf.woff2") format("woff2"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF/OTF/SourceSansPro-It.otf.woff */
     url("/s/SourceSansPro-It.otf.woff") format("woff"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/OTF/SourceSansPro-It.otf */
     url("/s/SourceSansPro-It.otf") format("opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/TTF/SourceSansPro-It.ttf */
     url("/s/SourceSansPro-It.ttf") format("truetype");
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
     font-family: "SourceSansProLightItalic";
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/EOT/SourceSansPro-LightIt.eot */
     src: url("/s/SourceSansPro-LightIt.eot") format("embedded-opentype"),
-        /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF2/TTF/SourceSansPro-LightIt.ttf.woff2 */
     url("/s/SourceSansPro-LightIt.ttf.woff2") format("woff2"),
-        /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF/OTF/SourceSansPro-LightIt.otf.woff */
     url("/s/SourceSansPro-LightIt.otf.woff") format("woff"),
-        /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/OTF/SourceSansPro-LightIt.otf */
     url("/s/SourceSansPro-LightIt.otf") format("opentype"),
-        /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/TTF/SourceSansPro-LightIt.ttf */
     url("/s/SourceSansPro-LightIt.ttf") format("truetype");
     font-weight: 300;
     font-style: normal; }
 
 @font-face {
     font-family: "SourceSansProSemiBold";
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/EOT/SourceSansPro-Semibold.eot */
     src: url("/s/SourceSansPro-Semibold.eot") format("embedded-opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF2/TTF/SourceSansPro-Semibold.ttf.woff2 */
     url("/s/SourceSansPro-Semibold.ttf.woff2") format("woff2"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF/OTF/SourceSansPro-Semibold.otf.woff */
     url("/s/SourceSansPro-Semibold.otf.woff") format("woff"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/OTF/SourceSansPro-Semibold.otf */
     url("/s/SourceSansPro-Semibold.otf") format("opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/TTF/SourceSansPro-Semibold.ttf */
     url("/s/SourceSansPro-Semibold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal; }
 
 @font-face {
     font-family: "SourceSansProBold";
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/EOT/SourceSansPro-Bold.eot */
     src: url("/s/SourceSansPro-Bold.eot") format("embedded-opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF2/TTF/SourceSansPro-Bold.ttf.woff2 */
     url("/s/SourceSansPro-Bold.ttf.woff2") format("woff2"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/WOFF/OTF/SourceSansPro-Bold.otf.woff */
     url("/s/SourceSansPro-Bold.otf.woff") format("woff"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/OTF/SourceSansPro-Bold.otf */
     url("/s/SourceSansPro-Bold.otf") format("opentype"),
-    /* https://w9.barcelona.cat/vendor/fonts/SourceSansPro/TTF/SourceSansPro-Bold.ttf */
     url("/s/SourceSansPro-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal; }
