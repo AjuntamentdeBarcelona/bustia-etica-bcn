@@ -50,7 +50,7 @@ La _Bústia ètica i de Bon Govern_ està basada en el programari _Globaleaks_, 
 
 llista de les funcionalitats i de les millores implementades a la Bústia:
 
-- configuració adaptada a les especificitats del sector públic _(es pot consultar al document [INSTALL(INSTALL.md)])_
+- configuració adaptada a les especificitats del sector públic _(es pot consultar al document [INSTALL](INSTALL.md)_
 - desenvolupament d'una nova funcionalitat que permet al receptor adjuntar fitxers de resolució, que podrà descarregar el comunicador de forma anònima _(incorporat al repositori de Globaleaks, a partir de la versió 2.65.0)_
 - creació d'una imatge gràfica més moderna, reestructuració d'alguns continguts per millorar la comprensió, formatació d'alguns textos per millorar la lectura _(fitxers js, css, i miniatures d'imatge)_
 - traduccions al català:
