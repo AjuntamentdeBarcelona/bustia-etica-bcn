@@ -1,30 +1,3 @@
-// --------------------- redirector. forçar idioma i redirigir admin cap a principal
-var wl = window.location.hash ;
-var wl2 = window.location.hostname ; 
-//PROD comunicador
-if ( (wl2=="bustiaetica.barcelona.cat" )  && (wl=="#/admin" || wl=="#/login" || wl =="#/" ) ) {
-    window.location.href = "https://bustiaetica.barcelona.cat/#/?lang=ca";
-	window.location.reload();
-}
-//PRE comunicador
-if ( (wl2=="pre-bustiaetica.imi.bcn" )  && (wl=="#/admin" || wl=="#/login" || wl =="#/" ) ) {
-    window.location.href = "https://pre-bustiaetica.imi.bcn/#/?lang=ca";
-	window.location.reload();
-}
-//PROD gestor
-if ( (wl2=="gestor-bustiaetica.imi.bcn" )  && (wl=="#/" || wl =="#/?lang=ca" || wl =="#/?lang=es"  ) ) {
-    window.location.href = "https://gestor-bustiaetica.imi.bcn/#/login";
-	window.location.reload();
-}
-//PRE gestor
-if ( (wl2=="pre-gestor-bustiaetica.imi.bcn" )  && (wl=="#/" || wl =="#/?lang=ca" || wl =="#/?lang=es"  ) ) {
-    window.location.href = "https://pre-gestor-bustiaetica.imi.bcn/#/login";
-	window.location.reload();
-}
-//---------------------- end-redirector
-
-
-
 // ---------------------- brand_injection
 var bcnBrandInjection = bcnBrandInjection || {};
 (function (bcnBrandInjection, context) {
@@ -132,21 +105,19 @@ var bcnBrandInjection = bcnBrandInjection || {};
         ca: {
           "lang_link" : domain + 'es',
           "lang_name" : 'Castellano',
-          "shield_alt": "Ajuntament de Barcelona"
+          "shield_alt": "Ajuntament de ----------"
         },
         es: {
           "lang_link" : domain + 'ca',
           "lang_name" : 'Catal&agrave;',
-          "shield_alt": "Ayuntamiento de Barcelona"
+          "shield_alt": "Ayuntamiento de ----------"
         },
         en: {
           "lang_link" : domain + 'es',
           "lang_name" : 'Castellano',
-          "shield_alt": "Barcelona city council"
+          "shield_alt": "---------- city council"
         }
-      },
-      template_html = '',
-      img_shield = 'data:image/png;base64,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';
+      };
     // load literals.
     bcnBrandInjection.i18n.load(literals);
     template_html = '<div id="brand" alias="bustiaetica" brand="bustiaetica_2016-05-25T07:22:00Z" class="v2015 v2015-ajuntament-f restyle lang_' + bcnBrandInjection.lang + '">'
@@ -154,9 +125,8 @@ var bcnBrandInjection = bcnBrandInjection || {};
       + '<div class="wrapper legacy" style="">'
       + '<div class="content">'
       + '<div class="logo">'
-      + '<h1>www.barcelona.cat</h1>'
+      + '<h1>www.elMeuWeb.cat</h1>'
       + '</div>'
-        + '<img class="logo_shield js_shield" src="' + img_shield + '" alt="' + bcnBrandInjection.i18n.t('shield_alt') + '">'
       + '<div class="center"><div>'
       + '<a href="' + encodeURI(bcnBrandInjection.i18n.t("lang_link")) + '" id="lang_change" class="js_lang_archor lang none" title="Canviar idioma">'
       + '<span class="lang_text">' + bcnBrandInjection.i18n.t("lang_name") + '</span>'
@@ -166,7 +136,6 @@ var bcnBrandInjection = bcnBrandInjection || {};
       + '<span class="lang_text">' + bcnBrandInjection.i18n.t("lang_name") + '</span>'
       + '</a>'
       + '</div></div>'
-      + '<h2 class="right">ajuntament.barcelona.cat</h2>'
       + '</div>'
       + '</div>'
       + '</header>'
@@ -295,10 +264,10 @@ var whistleblower_login_prompt = [
 ];
 
 var title_box = [
-'<div id="PageTitle">B&uacute;stia &Egrave;tica i de Bon Govern</div>'+   //P&agrave;gina de proves: 
+'<div id="PageTitle">(DEMO) B&uacute;stia &Egrave;tica i de Bon Govern</div>'+   //P&agrave;gina de proves: 
 '<div id="PageSubtitle"> Oficina per a la Transpar&egrave;ncia i les Bones Pr&agrave;ctiques</div>',
 
-'<div id="PageTitle">Buz&oacute;n &Eacute;tico y de Buen Gobierno</div>'+  //P&aacute;gina de pruebas:
+'<div id="PageTitle">(DEMO) Buz&oacute;n &Eacute;tico y de Buen Gobierno</div>'+  //P&aacute;gina de pruebas:
 '<div id="PageSubtitle"> Oficina para la Transparencia y las Buenas Pr&aacute;cticas</div>'
 ];
 
