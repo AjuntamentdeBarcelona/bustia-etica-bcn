@@ -15,17 +15,17 @@ Per tal de dur a terme la instal·lació de la Bústia Ètica, el primer pas és
 També es pot instal·lar una versió específica si, per exemple, volem alinear dos entorns (com per exemple desenvolupament i producció).
 
 Documentació Globaleaks:
-- GlobaLeaks Documentation > [Setup Guide](https://github.com/globaleaks/GlobaLeaks/wiki#setup-guide)
+- [GlobaLeaks Documentation](https://globaleaks.readthedocs.io/en/latest/)
 
 ### Instal·lació
 
-A banda de revisar els requeriments, i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
-- [instal·lació de sistema](https://github.com/globaleaks/GlobaLeaks/wiki/Installation-Guide)
+A banda de [revisar els requeriments tècnics](https://globaleaks.readthedocs.io/en/latest/TechnicalRequirements.html), i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
+- [instal·lació de sistema](https://globaleaks.readthedocs.io/en/latest/InstallationGuide.html)
   - descàrrega de l'script d'instal·lació (_install-globaleaks.sh_) des del repositori oficial
   - executar l'script
   - anotar les URLs d'accés, que es proporcionen un cop instal·lat 
 
-- executar l'[assistent de configuració](https://github.com/globaleaks/GlobaLeaks/wiki/Configuration-guide)
+- executar l'[assistent de configuració](https://globaleaks.readthedocs.io/en/latest/ConfigurationGuide.html)
   - obrir la URL donada durant la instal·lació en un navegador
   - escull idioma de l'assistent
   - nom i descripció de la iniciativa
