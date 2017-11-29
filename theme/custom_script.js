@@ -277,6 +277,14 @@ var buttonAccedirComunicacio = [
 '<button id="ReceiptButton" class="btn btn-default pull-right" onClick="loginFromReceiptButton(\'Recuerda copiar el c&oacute;digo de acceso {0}. En caso contrario no podr&aacute;s volver a acceder al canal seguro de comunicaci&oacute;n.\')" data-translate="">Acceder a la comunicaci&oacute;n</button>'
 ];
 
+
+// Added for v2.72.11 to bring back NodeIntroDescription
+var description_and_presentation = [
+'<div id="NodeIntroPresentation">Canal seguro de participaci&oacute;n para fortalecer la integridad del sector p&uacute;blico</div><div id="NodeIntroDescription">Si has detectado una mala praxis y puedes aportar pruebas al respecto, env&iacute;a la información a trav&eacute;s de este canal.</div>',
+'<div id="NodeIntroPresentation">Canal segur de participaci&oacute; per enfortir la integritat del sector p&uacute;blic</div><div id="NodeIntroDescription">Si heu detectat una mala praxi i podeu aportar proves respecte d\'aix&ograve;, envieu la informaci&oacute; a trav&eacute;s d\'aquest canal.</div>',
+];
+
+
 // Added for v2.65.4 to include wbfile translation. Fixed in v2.64.5
 var wbfile_temp_trans = [
 'Aquests arxius s\'han adjuntat al seu enviament per el receptor',
@@ -327,6 +335,7 @@ composeInit('#TitleBox', title_box);
 composeInit('#WhistleblowerLoginPrompt', whistleblower_login_prompt);
 composeInit('#WhistleblowerSubmitBoxHeader', whistleblower_submit_box_header);
 composeInit('#FooterBox', footer);
+composeInit('#NodeIntro', description_and_presentation);
 
 // Submission Elements 
 insertionQ('#AttachedWBFile div.alert-info span').every(applyHTML(wbfile_temp_trans));
