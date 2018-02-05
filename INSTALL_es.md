@@ -44,8 +44,8 @@ Se proponen varios aspectos a tener en cuenta, desde el punto de vista del Buzó
 - Entre el comunicador y la capa web, así como entre la capa web y la capa de aplicación tendría que haber diferentes niveles de cortafuegos para garantizar la seguridad controlando el tráfico que puede llegar a la aplicación, y a las máquinas donde está instalada.
 - Las comunicaciones van por https de extremo a extremo, para eso se han utilizado servidores configurados como proxy inverso con certificados: Uno en la capa web y otro en la capa Aplicación.
 - Aunque Globaleaks es una única aplicación, en la capa _Frontal Web_ se han introducido reglas para separar y aislar el acceso de los comunicadores y el acceso de los receptores como si fueran dos aplicaciones aisladas:
-- Se ha prohibido el acceso del comunicador al contexto del administrador (_/authentication_)
-- Se ha permitido el acceso de los receptores sólo desde dentro de la red corporativa
+	- Se ha prohibido el acceso del comunicador al contexto del administrador (_/authentication_)
+	- Se ha permitido el acceso de los receptores sólo desde dentro de la red corporativa
 - Hay que tener en cuenta que por defecto Globaleaks se publica como servicio dentro de la red TORO. Para deshabilitarlo, se configura a los scripts de configuración.
 
 ---
