@@ -51,14 +51,14 @@ Se proponen varios aspectos a tener en cuenta, desde el punto de vista del Buzó
 ---
 
 ## 2. Configuración opciones del Buzón
-A continuació s'indiquen les configuracions adoptades a la Bústia.
+A continuación se indican las configuraciones adoptadas en el Buzón.
 
-_En el fitxer [README.md](README.md) hi podeu trobar la descripció dels trets diferencials de la Bústia, que és útil per entendre els valors escollits en aquesta configuració_
+_En el fichero [README.md](README.md) podéis encontrar la descripción de los rasgos|tiros diferenciales del Buzón de Correo, que es útil para entender los valores escogidos en esta configuración_
 
-### Requisits previs
-Cal que haguem acabat la instal·lació i executat l'assistent.
+### Requisitos previos
+Hace falta que hayamos acabado la instalación y ejecutado el asistente.
 
-Cal que estiguem identificats dins el web d'administració ( _http://xx.xx.xx.xx/#/login_ ).
+Hace falta que estemos identificados dentro de la web de administración ( _http://xx.xx.xx.xx/#/login_ ).
 
 ### Idiomes disponibles: _Configuració General > Idiomes_
 Cal que hi marquem els idiomes en els quals traduirem la Bústia de cara als usuaris.
