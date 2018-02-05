@@ -60,15 +60,16 @@ Hace falta que hayamos acabado la instalación y ejecutado el asistente.
 
 Hace falta que estemos identificados dentro de la web de administración ( _http://xx.xx.xx.xx/#/login_ ).
 
-### Idiomes disponibles: _Configuració General > Idiomes_
-Cal que hi marquem els idiomes en els quals traduirem la Bústia de cara als usuaris.
+### Idiomas disponibles: _Configuración General > Idiomas_
+Hace falta que marquemos los idiomas en los cuales traduciremos el Buzón de Correo de cara a los usuarios.
 
-La Bústia ètica té el català i el castellà. Si en marquem més d'un, apareixerà adalt a la dreta un desplegable d'idiomes. Per configurar les opcions de la bústia referent a cada un dels idiomes, haurem d'anar canviant l'idioma de l'interfície.
+El Buzón de Correo ético tiene el catalán y el castellano. Si marcamos más de uno, aparecerá encima a la derecha uno desplegable de idiomas. Para configurar las opciones del buzón de correo en lo referente a cada uno de los idiomas, tendremos que ir cambiando el idioma de la interfaz.
 
-### Textos de la Bústia: _Configuració General > Configuració Principal_
-En aquesta opció del menú, es du a terme la configuració dels textos personalitzats de la Bústia.
+### Textos del Buzón: _Configuración General > Configuración Principal_
+Traducció:
+En esta opción del menú, se lleva a cabo la configuración de los textos personalizados del Buzón de Correo.
 
-Per entrar la informació dels diferents idiomes, cal que canviem l'idioma corresponent. Per exemple, per introduïr els literals en català, cal tenir la interfície en català. Desprès seleccionem el castellà , i podrem canviar els literals en castellà.
+Para entrar la información de los diferentes idiomas, hace falta que cambiemos el idioma correspondiente. Por ejemplo, para introducir los literales en catalán, hay que tener la interfaz en catalán. Desprendido seleccionamos el castellano, y podremos cambiar los literales en castellano.
 
 #### Català
 Detall de la configuració de cada una de les opcions d'aquesta secció:
