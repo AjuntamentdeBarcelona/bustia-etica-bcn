@@ -63,7 +63,7 @@ Hace falta que estemos identificados dentro de la web de administración ( _http
 ### Idiomas disponibles: _Configuración General > Idiomas_
 Hace falta que marquemos los idiomas en los cuales traduciremos el Buzón de Correo de cara a los usuarios.
 
-El Buzón de Correo ético tiene el catalán y el castellano. Si marcamos más de uno, aparecerá encima a la derecha uno desplegable de idiomas. Para configurar las opciones del buzón de correo en lo referente a cada uno de los idiomas, tendremos que ir cambiando el idioma de la interfaz.
+El Buzón de Correo Ético tiene el catalán y el castellano. Si marcamos más de uno, aparecerá encima a la derecha uno desplegable de idiomas. Para configurar las opciones del buzón de correo en lo referente a cada uno de los idiomas, tendremos que ir cambiando el idioma de la interfaz.
 
 ### Textos del Buzón: _Configuración General > Configuración Principal_
 Traducció:
