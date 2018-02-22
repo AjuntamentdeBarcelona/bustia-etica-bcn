@@ -1,202 +1,202 @@
 **Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan. Contact us if you need a Spanish or English translation (check our mail at the end of the document).
 
 
-# _Llegeix-me_ - Bústia Ètica i de Bon Govern
+# _Léeme_ - Buzón Ético y de Buen Gobierno
 
-1. Llicència de la Bústia Ètica i de Bon Govern
-2. Trets característics de la Bústia ètica i de Bon Govern
-3. Aportacions de Xnet i Ajuntament de Barcelona a Globaleaks
-4. Introducció a la Bústia Ètica i de Bon Govern: Funcionament i Seguretat
-5. Instal·lació i configuració
-6. Dades de contacte
-
-
--------------------------------------------------------------------------------------------------------------------------
-
-## 1. Llicència de la Bústia Ètica i de Bon Govern
-
-La [Bústia Ètica i de Bon Govern](https://ajuntament.barcelona.cat/bustiaetica/ca) és un canal segur que permet la participació anònima de la ciutadania per conèixer qualsevol acció o omissió contrària als principis del bon govern i així reforçar la gestió pública.
-
-Proposada i creada per l'organització independent [Xnet](https://xnet-x.net/ca/), ha estat desenvolupada i implementada per l'[Ajuntament de Barcelona](http://www.barcelona.cat/ca/) com a extensió del programari [Globaleaks](https://www.globaleaks.org/), desenvolupat per el _[Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/)_.
-
-El seu codi és lliure, modificable i replicable sempre que es reconegui i indiqui expressament l'autoria en parts iguals de Xnet i l'Ajuntament de Barcelona, indicant la següent frase textual al peu de pàgina: "Eina creada per [Xnet](https://xnet-x.net/ca/) i [Ajuntament de Barcelona](http://www.barcelona.cat/ca/). Powered by [Globaleaks](https://www.globaleaks.org/)"
-
-L'ús del codi de l'aplicació Globaleaks està sota les condicions de la [llicència utilitzada per la mateixa](https://github.com/globaleaks/GlobaLeaks/blob/master/LICENSE).
-
+1. Licencia del Buzón Ético y de Buen Gobierno
+2. Rasgos característicos del Buzón Ético y de Buen Gobierno
+3. Aportaciones de Xnet y Ayuntamiento de Barcelona a Globaleaks
+4. Introducción al Buzón Ético y de Buen Gobierno: Funcionamiento y Seguridad
+5. Instalación y configuración
+6. Datos de contacto
 
 
 -------------------------------------------------------------------------------------------------------------------------
 
-## 2. Trets característics de la Bústia ètica i de Bon Govern
+## 1. Licencia del Buzón Ético y de Buen Gobierno
 
-La _Bústia ètica i de Bon Govern_ està basada en el programari _Globaleaks_, i per a la seva implementació al sector públic s'han pres les següents decisions:
+La [Buzón Ético y de Buen Gobierno](https://ajuntament.barcelona.cat/bustiaetica/es) es un canal seguro que permite la participación anónima de la ciudadanía para conocer cualquier acción u omisión contraria a los principios del buen gobierno y así reforzar la gestión pública.
 
-- Permet l'anonimat del comunicador
-	- És accessible des d’un domini d’internet públic, no exclusiu dins de la xarxa TOR
-	- Permet l'accés del comunicador tant des del navegador [TOR](https://www.torproject.org/) com també des d'una connexió internet normal
-	- Opcionalment, el comunicador pot donar les seves dades. Es poden comunicar informacions sense identificar-se en absolut. 
-- s'utilitza una terminologia pròpia: comunicador, receptor, comunicació
-- segons les [normes reguladores](https://ajuntament.barcelona.cat/bustiaetica/ca/normes-reguladores) , es dóna una resposta formal al comunicador, i per tant ha calgut incorporar la funcionalitat (no existent anteriorment a Globaleaks) de retornar un document oficial signat com a resposta a la comunicació
-- es defineixen uns rols diferenciats de gestió per assegurar la segregació de funcions i l'auditabilitat: administrador de sistema, administrador de globaleaks, auditor de l'administrador de globaleaks, i receptor (es descriuen més endavant).
-	- s'incorpora la figura de l'auditor de seguretat, que audita els usuaris del sistema i la seva utilització
-	- no es permet als receptors d'esborrar els casos, a fi d'assegurar una traçabilitat amb el gestor d'expedients
-- la infraestructura es desplega al _cloud privat_ intern de l'[Institut Municipal d'Informàtica](http://ajuntament.barcelona.cat/imi/ca)
-	- servidors dedicats
-	- segment de xarxa específic, aïllat de la resta de xarxes corporatives
-	- separada en 3 capes , en comptes de tenir tota la instal·lació en un sol servidor com proposa la instal·lació per defecte
-	- comunicadors es poden connectar amb navegador TOR a aquest segment
-	- receptors només poden accedir des de la xarxa corporativa (via https): s'ha diferenciat l'accés via _proxy_ intermedi, donat que globaleaks preveu només un únic punt d'entrada per comunicador i receptor.
+Una vez propuesta y creada por la organización independiente [Xnet](https://xnet-x.net/es/), ha sido desarrollada e implementada por el [Ayuntamiento de Barcelona](http://www.barcelona.cat/es/) como a extensión del programa [Globaleaks](https://www.globaleaks.org/), desarrollado por el _[Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/)_.
+
+Su código es libre, modificable y replicable siempre que se reconozca e indique expresamente la autoría en partes iguales de Xnet y el Ayuntamiento de Barcelona, indicando la siguiente frase textual al pie de página: "Herramienta creada por [Xnet](https://xnet-x.net/es/) y [Ayuntamiento de Barcelona](http://www.barcelona.cat/es/). Powered by [Globaleaks](https://www.globaleaks.org/)"
+
+El uso del código de la aplicación Globaleaks está bajo las condiciones de la [licencia utilizada por la misma](https://github.com/globaleaks/GlobaLeaks/blob/master/LICENSE).
+
+
 
 -------------------------------------------------------------------------------------------------------------------------
 
-## 3. Aportacions de Xnet i Ajuntament de Barcelona a Globaleaks
+## 2. Rasgos característicos del Buzón Ético y de Buen Gobierno
 
-llista de les funcionalitats i de les millores implementades a la Bústia:
+El _Buzón Ético y de Buen Gobierno_ está basado en el software _Globaleaks_, y para su implementación en el sector público se han tomado las siguientes decisiones:
 
-- configuració adaptada a les especificitats del sector públic _(es pot consultar al document [INSTALL](INSTALL.md)_
-- desenvolupament d'una nova funcionalitat que permet al receptor adjuntar fitxers de resolució, que podrà descarregar el comunicador de forma anònima _(incorporat al repositori de Globaleaks, a partir de la versió 2.65.0)_
-- creació d'una imatge gràfica més moderna, reestructuració d'alguns continguts per millorar la comprensió, formatació d'alguns textos per millorar la lectura _(fitxers js, css, i miniatures d'imatge)_
-- traduccions al català:
-	- de la interfície de globaleaks: [literals de l'aplicació](https://www.transifex.com/otf/globaleaks/)
-	- del web del projecte: [globaleaks.org/ca/](https://www.globaleaks.org/ca/)	(_pendent de publicació_)
-- nomenclatura pròpia: adaptacions de traduccions dins el producte
-- configuració qüestionaris que respectin la normativa vigent (LOPD). Construcció d'un fitxer de configuració importable per a la ràpida creació del qüestionari _(fitxer importable json proporcionat en aquest repositori)_
-- detecció i correcció d'[errors del producte](https://github.com/globaleaks/GlobaLeaks/issues?utf8=%E2%9C%93&q=label%3A%22X%3A%20MH96DX%22%20)
-
-
-_En aquest projecte es proporciona tot el detall de la configuració usada, i s'inclouen tots els desenvolupaments realitzats, per tal que es puguin usar en d'altres bústies, sempre d'acord amb la [llicència d'ús](LICENSE)._ 
+- Permite el anonimato del comunicador
+	- Es accesible desde un dominio de internet público, no exclusivo dentro de la red TORO
+	- Permite el acceso del comunicador tanto desde el navegador [TOR](https://www.torproject.org/) como también desde una conexión internet normal
+	- Opcionalmente, el comunicador puede dar sus datos. Se pueden comunicar informaciones sin identificarse en absoluto. 
+- se utiliza una terminología propia: comunicador, receptor, comunicación
+- según las [normas reguladoras](https://ajuntament.barcelona.cat/bustiaetica/es/normas-reguladoras) , se da una respuesta formal al comunicador, y por lo tanto ha habido que incorporar la funcionalidad (no existente anteriormente en Globaleaks) de devolver un documento oficial firmado como respuesta a la comunicación
+- se definen unos roles diferenciados de gestión para asegurar la segregación de funciones y el auditabilidad: administrador de sistema, administrador de globaleaks, auditor del administrador de globaleaks, y receptor (se describen más adelante).
+	- se incorpora la figura del auditor de seguridad, que audita a los usuarios del sistema y su utilización
+	- no se permite a los receptores borrar los casos, con el fin de asegurar una trazabilidad con el gestor de expedientes
+- la infraestructura se despliega en el _cloud privat_ interno del [Institut Municipal d'Informàtica](http://ajuntament.barcelona.cat/imi/es)
+	- servidores dedicados
+	- segmento de red específico, aislado del resto de redes corporativas
+	- separada en 3 capas, en vez de tener toda la instalación en un solo servidor como propone la instalación por defecto
+	- comunicadores se pueden conectar con navegador TOR a este segmento
+	- receptores sólo pueden acceder desde la red corporativa (vía https): se ha diferenciado el acceso vía _proxy_ intermedio, dado que globaleaks prevé sólo un único punto de entrada para|por comunicador y receptor.
 
 -------------------------------------------------------------------------------------------------------------------------
 
-## 4. Introducció a la Bústia Ètica i de Bon Govern: Funcionament i Seguretat
-En aquest apartat es fa una **descripció del funcionament** de la Bústia, i dels **requeriments generals de seguretat** que s'hi han aplicat.
+## 3. Aportaciones de Xnet y Ayuntamiento de Barcelona a Globaleaks
+
+lista de las funcionalidades y de las mejoras implementadas en el Buzón:
+
+- configuración adaptada a las especificidades del sector público _(se puede consultar en el documento [INSTALL](INSTALL.md)_
+- desarrollo de una nueva funcionalidad que permite al receptor adjuntar ficheros de resolución, que podrá descargar el comunicador de forma anónima _(incorporado en el repositorio de Globaleaks, a partir de la versión 2.65.0)_
+- creación de una imagen gráfica más moderna, reestructuración de algunos contenidos para mejorar la comprensión, formateo de algunos textos para mejorar la lectura _(ficheros js, css, y miniaturas de imagen)_
+- traducciones al catalàn:
+	- de la interficie de globaleaks: [literals de l'aplicació](https://www.transifex.com/otf/globaleaks/)
+	- del web del proyecto: [globaleaks.org/ca/](https://www.globaleaks.org/ca/)	(_pendient de publicación_)
+- nomenclatura propia: adaptaciones de traducciones dentro el producto
+- configuración cuestionarios que respeten la normativa vigente (LOPD). Construcción de un fichero de configuración importable para la rápida creación del cuestionario _(fichero importable json proporcionado en este repositorio)_
+- detección y corrección de [errores del producto](https://github.com/globaleaks/GlobaLeaks/issues?utf8=%E2%9C%93&q=label%3A%22X%3A%20MH96DX%22%20)
 
 
-**La Bústia és un canal segur de comunicació electrònica bidireccional i asíncrona, que garanteix la confidencialitat i permet l'anonimat de les informacions.**
+_En este proyecto se proporciona todo el detalle de la configuración usada, y se incluyen todos los desarrollos realizados, a fin de que se puedan usar en otros buzones, siempre de acuerdo con la [licencia de uso](LICENSE)._ 
 
-### Alta Confidencialitat
+-------------------------------------------------------------------------------------------------------------------------
 
-La informació es tracta amb classificació 'Molt Crítica' i LOPD nivell ALT (ALTA CONFIDENCIALITAT):
-- Les comunicacions de dades són xifrades extrem a extrem mitjançant protocol HTTPS.
-- La informació lliurada pel comunicador s'emmagatzema xifrada sempre. 
-- S'han emprat claus de xifratge de mecanismes de clau pública / clau privada que permeten mantenir la privacitat entre comunicador i receptor.
-- El receptor (òrgan gestor de la Bústia) té la seva clau privada.
-- Cada informació que s'entra a la Bústia obre un cas i es lliura un número únic que serveix com a element de comunicació del cas concret. 
-- No es fa de registre _(log)_ de comunicacions al servidor d'aplicació de la bústia ètica, per tal de garantir l’anonimat de l’informador.
-- Les notificacions als Receptors per noves informacions, o noves dades d’una informació existent, es fan per correu xifrat via correu corporatiu intern.
-
-El receptor disposa de manuals de metodologia de treball segur.
-
-L'Ajuntament disposa de procediment de custòdia de claus, per garantir-ne la recuperació dels documents sota procediment reglat (contingència en cas de pèrdua de claus).
-
-L'Ajuntament  ofereix protecció del lloc de treball corporatiu (inclou antivirus i encriptació).
+## 4. Introducción al Buzón Ético y de Buen Gobierno: Funcionamiento y Seguridad
+En este apartado se hace una **descripción del funcionamiento** del Buzón, y de los **requerimientos generales de seguridad** que se han aplicado.
 
 
-### Protecció de la infraestructura
+**El Buzón es un canal seguro de comunicación electrónica bidireccional y asíncrona, que garantiza la confidencialidad y permite el anonimato de las informaciones.**
 
-Es facilita l'accés anònim dels comunicadors a la Bústia a través del navegador TOR.
-- La xarxa TOR i el seu navegador és un programari gratuït i de codi obert
+### Alta Confidencialidad
 
-L'aplicació està hostatjada al cloud privat de l'Ajuntament, en un segment especial i aïllat de la xarxa corporativa.
+La información se trata con clasificación 'Muy Crítica' y LOPD nivel ALTO (ALTA CONFIDENCIALIDAD):
+- Las comunicaciones de datos son cifradas extremo en extremo mediante protocolo HTTPS.
+- La información entregada por el comunicador se almacena cifrada siempre.
+- Se han utilizado claves de encriptación de mecanismos de clave pública / clave privada que permiten mantener la privacidad entre comunicador y receptor.
+- El receptor (órgano gestor del Buzón) tiene su clave privada.
+- Cada información que se entra al Buzón abre un caso y se entrega un número único que sirve como elemento de comunicación del caso concreto.
+- No se hace de registro _(log)_ de comunicaciones al servidor de aplicación del buzón ético, con el fin de garantizar el anonimato del informador.
+- Las notificaciones en los Receptores para|por nuevas informaciones, o nuevos datos de una información existente, se hacen por correo cifrado vía correo corporativo interno.
 
-Definit en dues zones:
-- Internet per accés dels comunicadors.
-- Intranet per receptors i administradors.
+El receptor dispone de manuales de metodología de trabajo seguro.
 
-Els servidors s'han bastionat (protecció específica de les configuracions dels sistemes i productes) per evitar atacs.
+El Ayuntamiento dispone de procedimiento de custodia de claves, para garantizar la recuperación de los documentos bajo procedimiento reglado (contingencia en caso de pérdida de claves).
 
-La informació adjuntada per el comunicador esta sempre xifrada al servidor mitjançant Claus PGP per evitar qualsevol accés no desitjat, inclús el de possibles administradors de sistemes.
-
-S'ha realitzat test de _hacking_ ètic per testejar la infraestructura.
+El Ayuntamiento ofrece protección del puesto de trabajo corporativo (incluye antivirus y encriptación).
 
 
-### Perfils d'usuaris de la Bústia
+### Protección de la infraestructura
+
+Se facilita el acceso anónimo de los comunicadores al Buzón a través del navegador TOR.
+- La red TOR y su navegador es un software gratuito y de código abierto
+
+La aplicación está hospedada en el cloud privado del Ayuntamiento, en un segmento especial y aislado de la red corporativa.
+
+Definido en dos zonas:
+- Internet por acceso de los comunicadores.
+- Intranet para|por receptores y administradores.
+
+Los servidores se han bastionado (protección específica de las configuraciones de los sistemas y productos) para evitar ataques.
+
+La información adjuntada por el comunicador esta siempre cifrada en el servidor mediante Claves PGP para evitar cualquier acceso no deseado, incluso el de posibles administradores de sistemas.
+
+Se ha realizado test de _hacking_ ético por testear la infraestructura.
+
+
+### Perfiles de usuarios del Buzón
 
 Comunicador
-- És qui comunica els casos.
+- Es quién comunica los casos.
 
 Receptor
-- Òrgan gestor de la Bústia.
-- És l'únic que pot rebre els casos.
-- La informació està xifrada i només amb la seva clau privada es pot des xifrar.
+- Órgano gestor del Buzón.
+- Es lo único que puede recibir los casos.
+- La información está cifrada y sólo con su clave privada se puede descifrar.
 
 Administrador funcional:
-- Defineix els usuaris de perfil receptor.
-- No té accés als casos.
-- Totes les accions queden enregistrades.
+- Define a los usuarios de perfil receptor.
+- No tiene acceso a los casos.
+- Todas las acciones quedan registradas.
 
-Administrador de sistemes:
-- Manté el programari, monitoritza el sistema, fa còpies de seguretat.
-- No pot llegir la informació sensible, ja que està xifrada.
+Administrador de sistemas:
+- Mantiene el software, monitoriza el sistema, hace copias de seguridad.
+- No puede leer la información sensible, ya que está cifrada.
 
-Auditor de l'Administrador funcional:
-- Revisa les accions de l'administrador
-- Revisa la creació i l'activació/desactivació dels usuaris
-- Registra  les incidències que es puguin produir
+Auditor del Administrador funcional:
+- Revisa las acciones del administrador
+- Revisa la creación y la activación/desactivación de los usuarios
+- Registra las incidencias que se puedan producir
 
-### Comunicador: Com introduir un cas
+### Comunicador: Como introducir un caso
 
-Accés:  [barcelona.cat/bustiaetica](https://ajuntament.barcelona.cat/bustiaetica/ca)
+Acceso:  [barcelona.cat/bustiaetica](https://ajuntament.barcelona.cat/bustiaetica/es)
 
-- Des del peu de qualsevol pàgina del web es pot accedir a l'aplicació d'enviament i consulta del cas en un clic.
-- Permet un accés anònim amb el navegador TOR.
-- Cal exposar el cas en una fitxa.
-- Es poden adjuntar documents que queden xifrats a la bústia.
-- Cal conservar l'identificador del cas, per poder consultar la resposta de l'Ajuntament i/o aportar més informació i/o documentació.
-
-
-
-### Comunicador: Com accedir al cas
-
-Accés:  [barcelona.cat/bustiaetica](https://ajuntament.barcelona.cat/bustiaetica/ca)
-
-- Des del peu de qualsevol pàgina del web es pot accedir a l'aplicació per consultar el cas.
-- Introdueix l'identificador del cas (codi numèric d'accés), per poder consultar la resposta de l'ajuntament i/o aportar més informació a través de missatges o de nous documents.
+- Desde el pie de cualquier página de la web se puede acceder a la aplicación de envío y consulta del caso en un clic.
+- Permite un acceso anónimo con el navegador TOR.
+- Hay que exponer el caso en una ficha.
+- Se pueden adjuntar documentos que quedan cifrados en el buzón.
+- Hay que conservar el identificador del caso, para poder consultar la respuesta del Ayuntamiento y/o aportar más información y/o documentación.
 
 
-### Receptor: com consulta i tracta la comunicació
 
-El receptor rep un avís (via un correu intern xifrat) de que hi ha una comunicació nova o que s'ha aportat més informació.
+### Comunicador: Como acceder al caso
 
-Accedeix a la comunicació (per una adreça interna només accessible des de la xarxa interna de l'Ajuntament):
-- Veu la fitxa resum.
-- Pot descarregar tot el cas : fitxa i documents adjunts.
-- La documentació es descarrega xifrada.
-- Els documents  es desxifren només amb la seva clau privada
+Acceso:  [barcelona.cat/bustiaetica](https://ajuntament.barcelona.cat/bustiaetica/es)
 
-Fa tractament:
-- Anàlisi de la comunicació: estudi d'admissió i comprovacions.
-- Retorna resposta al comunicador a través de missatges. Pot demanar més informació.
-- Adjunta documents de resposta signats digitalment, si és necessari. 
-- El receptor no pot esborrar cap comunicació. 
-
-### Més informació
-
-- Per a més informació sobre el llançament de la Bústia, consulteu la [Nota de premsa](http://ajuntament.barcelona.cat/premsa/2017/01/19/barcelona-activa-la-seva-bustia-etica-una-eina-de-bon-govern-pionera-en-la-prevencio-contra-la-corrupcio/) de la presentació de la bústia.
-
-- Per a més informació sobre el funcionament i el marc regulador, consulteu el [web informatiu de la Bústia](https://ajuntament.barcelona.cat/bustiaetica/ca)
-
-- Altres eines usades fora de Globaleaks per al tractament posterior de la informació:
-	- GPG4WIN per a encriptar/desencriptar 
-	- Navegador TOR
-	- Bitlocker per al xifrat del disc dur
-
--------------------------------------------------------------------------------------------------------------------------
+- Desde el pie de cualquier página de la web se puede acceder a la aplicación para consultar el caso.
+- Introduce el identificador del caso (código numérico de acceso), para poder consultar la respuesta del ayuntamiento y/o aportar más información a través de mensajes o de nuevos documentos.
 
 
-## 5. Instal·lació
+### Receptor: cómo consulta y trata la comunicación
 
-En aquest repositori s'inclou el detall de la  configuració usada per la Bústia, i s'adjunten tots els fitxers de codi desenvolupats.
-- Consultar el detall al fitxer [INSTALL.md](INSTALL.md)
+El receptor recibe un aviso (vía un correo interno cifrado) de que hay una comunicación nueva o que se ha aportado más información.
 
+Accede a la comunicación (por|para una dirección interna sólo accesible desde la red interna del Ayuntamiento):
+- Ve la ficha resumen.
+- Puede descargar todo el caso: ficha y documentos adjuntos.
+- La documentación se descarga cifrada.
+- Los documentos se descifran sólo con su clave privada
+
+Hace tratamiento:
+- Análisis de la comunicación: estudio de admisión y comprobaciones.
+- Devuelve respuesta al comunicador a través de mensajes. Puede pedir más información.
+- Adjunta documentos de respuesta firmados digitalmente, si es necesario.
+- El receptor no puede borrar ninguna comunicación.
+
+### Más información
+
+- Para más información sobre el lanzamiento del Buzón, consultad la [Nota de prensa](http://ajuntament.barcelona.cat/premsa/2017/01/19/barcelona-activa-la-seva-bustia-etica-una-eina-de-bon-govern-pionera-en-la-prevencio-contra-la-corrupcio/) de la presentación del Buzón.
+
+- Para más información sobre el funcionamiento y el marco regulador, consultad la [web informativo del Buzón](https://ajuntament.barcelona.cat/bustiaetica/es)
+
+- Otras herramientas usadas fuera de Globaleaks para el tratamiento posterior de la información:
+- GPG4WIN para encriptar/desencriptar
+- Navegador TOR
+- Bitlocker para el cifrado del disco duro
 
 -------------------------------------------------------------------------------------------------------------------------
 
-## 6. Dades de contacte
 
-Per a consultes tècniques de instal·lació i configuració:
+## 5. Instalación
+
+En este repositorio se incluye el detalle de la configuración usada por el Buzón, y se adjuntan todos los ficheros de código desarrollados.
+- Consultar el detalle en el fichero [INSTALL.md](INSTALL.md)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+## 6. Datos de contacto
+
+Para consultas técnicas de instalación y configuración:
 - Joan Bitlloch <jbitlloch@bcn.cat>
-- Direcció de Desenvolupament de l'Institut Municipal d'Informàtica, Ajuntament de Barcelona
+- Dirección de Desarrollo del Instituto Municipal de Informática, Ayuntamiento de Barcelona
 
 
 -------------------------------------------------------------------------------------------------------------------------
