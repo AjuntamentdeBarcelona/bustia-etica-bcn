@@ -166,30 +166,30 @@ Per cada opció, s'indica si està activada (SI) o desactivada (NO), o bé si é
 
 ---
 
-## 3. Configuració dels qüestionaris de la Bústia: _Configuració de Qüestionaris_
-En aquest apartat detalla la configuració adoptada per el qüestionari que es mostrarà al comunicador, incloent tots els textos en català i castellà.
+## 3. Configuración de los cuestionarios del Buzón: _Configuración de Cuestionarios_
+En este apartado se detalla la configuración adoptada por el cuestionario que se mostrará al comunicador, incluyendo todos los textos en catalán y castellano.
 
-S'aconsella la importació automàtica del formulari, donat que configurar-ho a mà és força feina:
- per importar el qüestionari:
-    - accedir al menú _Configuració de Qüestionaris > Configuració de Qüestionaris_
-    - Clicar IMPORTA, i seleccionar el fitxer [Qüestionari Bústia Ètica i de Bon Govern.json](questionnaire) del repositori
+Se aconseja la importación automática del formulario, dado que configurarlo a mano es bastante trabajo:
+para importar el cuestionario:
+    - acceder al menú _Configuración de Cuestionarios > Configuración de Cuestionarios_
+    - Clicar IMPORTAR, y seleccionar el fichero [Qüestionari Bústia Ètica i de Bon Govern.json](questionnaire) del repositorio
 
-per configurar el context:
-    - accedir al menú _Configuració de Contextos_
-    - Clicar a _EDITAR_ el context
-    - al desplegable de qüestionaris, seleccionar el qüestionari de la Bústia Ètica
-    - configurar paràmetres (almenys): 
-    	- ajsutar temps de caducitat
-	- marcar els usuaris receptors (si no tenim ara usuaris, caldrà tornar desprès a afegir-los)
-	- marcar la opció " Permet als receptors carregar arxius per als informadors"
-	- revisar els altres valors per defecte, per si volem canviar algun
-    - desar
+para configurar el contexto:
+    - acceder al menú _Configuración de Contextos_
+    - Clicar en _EDITAR_ el contexto
+    - en el desplegable de cuestionarios, seleccionar el cuestionario de la Buzón Ético
+    - configurar parámetros (como mínimo): 
+    	- ajustar tiempo de caducidad
+	- marcar los usuarios receptores (si no tenemos ahora usuarios, se tandrá que volver después a añadirlos)
+	- marcar la opción "Permitir a los receptores cargar archivos para los informadores"
+	- revisar los otros valores por defecto, por si queremos cambiar alguno
+    - guardar
 
-A banda, es detalla a continuació el contingut d'aquesta configuració:
+Además, se detalla a continuación el contenido de esta configuración:
 
-### Qüestionari Bústia Ètica i de Bon Govern
+### Cuestionario Buzón Ético y de Buen Gobierno
 
-#### català
+#### catalàn
 <pre>
 Passos configurats:
     (1) Descripció
@@ -240,7 +240,7 @@ Passos configurats:
             Text de l'acord:  En marcar aquesta casella, accepteu les condicions i regles d'ús de la Bústia Ètica i de Bon Govern.
 </pre>
 
-#### castellà
+#### castellano
 <pre>
 (1)Descripción
     -Asunto
@@ -273,12 +273,12 @@ Passos configurats:
 
 ---
 
-## 4. Configuració de traduccions específiques: _Configuració General > Personalització del text_
-El producte globaleaks permet adaptar els literals de l'aplicació a les necessitats del projecte.
+## 4. Configuración de traducciones específicas: _Configuración General > Personalización del texto_
+El producto globaleaks permite adaptar los literales de la aplicación a las necesidades del proyecto.
 
-Es detalla en aquest apartat els missatges traduïts específicament, per adaptar al vocabulari concret de la Bústia Ètica.
+Se detalla en este apartado los mensajes traducidos específicamente, para adaptar al vocabulario concreto del Buzón Ético.
 
-### Català 
+### Catalàn 
 
 | Text original | Traducció original | Traducció personalitzada |
 | ------------- | ------------------ | ------------------------ |
@@ -322,7 +322,7 @@ Es detalla en aquest apartat els missatges traduïts específicament, per adapta
 
 ---
 
-### Castellà
+### Castellano
 
 | Texto original | Traducción original | Traducción personalizada |
 | --------------------------- | --------------------------- | --------------------------- |
@@ -368,28 +368,27 @@ Es detalla en aquest apartat els missatges traduïts específicament, per adapta
 
 ---
 
-## 5. Configuració del tema visual: _Configuració General > Personalització del tema_
-Opcions per personalitzar el tema visual: colors, tipus de lletra, imatges.
+## 5. Configuración del tema visual: _Configuración General > Personalización del tema_
+Opciones para personalizar el tema visual: colores, tipos de letra, imágenes.
 
-Dins del repositori, s'allotja al directori [theme](theme)
-S'inclou un fitxer javascript, un fitxer css, i un directori amb varis fitxers estàtics d'imatges i fonts de lletra.  S'inclouen tots els fitxers necessaris dins Globaleaks de manera que al consultar el web de la Bústia ètica no es carregui **cap recurs extern**.
+Dentro del repositorio, se aloja al directorio [theme](theme) se incluye un fichero javascript, un fichero css, y un directorio con varios ficheros estáticos de imágenes y fuentes de letra. Se incluyen todos los ficheros necesarios dentro de Globaleaks de manera que en el consultar la web del Buzón ético no se cargue **ningún recurso externo**.
 
-Al fitxer CSS hi trobem:
-- incorporades imatges corporatives, per garantir la càrrega
-- crides a fonts, tot autocontingut al directori estàtic del propi servidor
+En el fichero CSS encontramos:
+- incorporadas imágenes corporativas, para garantizar la carga
+- llamamientos a fuentes, todo autocontenido al directorio estático del propio servidor
 
-Al javascript hi ha, entre altres :
-- personalització de textos, per incloure text ric
-- lògica de càrrega de la barra corporativa 
-- arregla la URL si s’intenta entrar per gestionar, o si no es posa l’idioma
+En el javascript hay, entre otros:
+- personalización de textos, para incluir texto rico
+- lógica de carga de la barra corporativa
+- arregla la URL si se intenta entrar para gestionar, o si no se pone el idioma
 
-Fitxers estàtics d'imatges i fonts de lletra:
-- Imatges:
+Ficheros estáticos de imágenes y fuentes de letra:
+- Imágenes:
 	- bustia_etica_icona_aplicacio_140x140.png
 	- Menys.png
 	- Mes.png
-- Fonts de lletra:
-	- Els fonts de lletra tenen la seva pròpia [llicència Open Font](theme/static-files/LICENSE).
+- Fuentes de letra:
+	- Las fuentes de letra tienen la suya propia [llicència Open Font](theme/static-files/LICENSE).
 	- SourceSansPro-Bold.eot 
 	- SourceSansPro-Bold.otf
 	- SourceSansPro-Bold.otf.woff
@@ -415,29 +414,29 @@ Fitxers estàtics d'imatges i fonts de lletra:
 	- SourceSansPro-Semibold.otf.woff
 	- SourceSansPro-Semibold.ttf.woff2
 
-Per a més informació
-- Documentació Globaleaks sobre la personalització del tema:  [Customization guide](https://github.com/globaleaks/GlobaLeaks/wiki/Customization-guide)
+Para más información
+- Documentación Globaleaks sobre la personalización del tema:  [Customization guide](https://github.com/globaleaks/GlobaLeaks/wiki/Customization-guide)
 
 ---
 
-## 6. Activar la funcionalitat d'adjuntar fitxers per al comunicador
-L'Ajuntament, per requeriments de la _Bústia ètica_, ha desenvolupat una nova funcionalitat que permet al receptor adjuntar fitxers al cas per tal que el comunicador se'ls pugui descarregar de forma anònima.
+## 6. Activar la funcionalidad de adjuntar ficheros para el comunicador
+El Ayuntamiento, para requerimientos de la _Bústia ètica_, ha desarrollado una nueva funcionalidad que permite al receptor adjuntar ficheros al caso, a fin de que el comunicador se los pueda descargar de forma anónima.
 
-la funcionalitat permet:
-- es pot activar/desactivar, segons si es vol utilitzar
-- permet adjuntar un fitxer i una descripció per part del receptor
-- aquest fitxer no s'encripta
-- l'enllaç al fitxer apareix a la pàgina de detall de comunicació, des d'on el comunicador el pot descarregar
-- el fitxer no caduca, i es pot descarregar múltiples vegades
-- el receptor pot consultar el nombre de vegades que s'ha descarregat el fitxer, per saber si se l'han descarregat
+la funcionalidad permite:
+- se puede activar/desactivar, según si se quiere utilizar
+- permite adjuntar un fichero y una descripción por parte del receptor
+- este fichero no se encripta
+- el enlace en el fichero aparece en la página de detalle de comunicación, desde donde el comunicador lo puede descargar
+- el fichero no caduca, y se puede descargar múltiples veces
+- el receptor puede consultar el número de veces que se ha descargado el fichero, para saber si se lo han descargado
 
-El desenvolupament s'ha incorporat al propi repositori de Globaleaks, per tal de que sigui codi obert i se'n puguin beneficiar altres bústies.
+El desarrollo se ha incorporado al propio repositorio de Globaleaks, con el fin de que sea código abierto y se puedan beneficiar otros buzones.
 
-Per defecte, aquest desenvolupament ve desactivat.
+Por defecto, este desarrollo viene desactivado.
 
-Passos per activar pujar fitxers per part del receptor:
-- accedir al menú: _configuració de contextos > "Editar"_
-- clicar al botó _+Configuració Avançada_
-- marcar la opció " Permet als receptors carregar arxius per als informadors"
+Pasos para activar subir ficheros por parte del receptor:
+- acceder al menú: _configuración de contextos > "Editar"_
+- clicar el botón _+Configuració Avançada_
+- marcar la opción " Permitir a los receptores cargar archivos para los informadores"
 
 ----
