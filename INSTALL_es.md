@@ -53,7 +53,7 @@ Se proponen varios aspectos a tener en cuenta, desde el punto de vista del Buzó
 ## 2. Configuración opciones del Buzón
 A continuación se indican las configuraciones adoptadas en el Buzón.
 
-_En el fichero [README.md](README.md) podéis encontrar la descripción de los rasgos|tiros diferenciales del Buzón de Correo, que es útil para entender los valores escogidos en esta configuración_
+_En el fichero [README_es.md](README_es.md) podéis encontrar la descripción de los rasgos|tiros diferenciales del Buzón de Correo, que es útil para entender los valores escogidos en esta configuración_
 
 ### Requisitos previos
 Hace falta que hayamos acabado la instalación y ejecutado el asistente.
