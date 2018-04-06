@@ -1,4 +1,4 @@
-**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan. Contact us if you need a Spanish or English translation (check our mail at the end of the document).
+**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan. Contact us if you need an English translation (check our mail at the end of the document).
 
 
 # _Léeme_ - Buzón Ético y de Buen Gobierno
@@ -53,7 +53,7 @@ El _Buzón Ético y de Buen Gobierno_ está basado en el software _Globaleaks_, 
 
 lista de las funcionalidades y de las mejoras implementadas en el Buzón:
 
-- configuración adaptada a las especificidades del sector público _(se puede consultar en el documento [INSTALL](INSTALL.md)_
+- configuración adaptada a las especificidades del sector público _(se puede consultar en el documento [INSTALL_es.md](INSTALL_es.md)_
 - desarrollo de una nueva funcionalidad que permite al receptor adjuntar ficheros de resolución, que podrá descargar el comunicador de forma anónima _(incorporado en el repositorio de Globaleaks, a partir de la versión 2.65.0)_
 - creación de una imagen gráfica más moderna, reestructuración de algunos contenidos para mejorar la comprensión, formateo de algunos textos para mejorar la lectura _(ficheros js, css, y miniaturas de imagen)_
 - traducciones al catalàn:
@@ -187,7 +187,7 @@ Hace tratamiento:
 ## 5. Instalación
 
 En este repositorio se incluye el detalle de la configuración usada por el Buzón, y se adjuntan todos los ficheros de código desarrollados.
-- Consultar el detalle en el fichero [INSTALL.md](INSTALL.md)
+- Consultar el detalle en el fichero [INSTALL_es.md](INSTALL_es.md)
 
 
 -------------------------------------------------------------------------------------------------------------------------
