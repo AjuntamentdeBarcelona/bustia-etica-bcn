@@ -17,6 +17,13 @@ También se puede instalar una versión específica si, por ejemplo, queremos al
 Documentación Globaleaks:
 - [GlobaLeaks Documentation](https://globaleaks.readthedocs.io/en/latest/)
 
+### Versión
+El código y configuración de éste repositorio ha sido testeado con la versión más reciente de la rama 2 de globaleaks:
+- versión de globaleaks: 2.72.31 - 2018-01-15
+
+En éste momento se está trabajando en la actualización a la versión 3. Pueden contactar con nosotros para cualquier duda al respecto.
+
+
 ### Instalación
 
 Aparte de [revisar los requerimientos técnicos](https://globaleaks.readthedocs.io/en/latest/TechnicalRequirements.html), y las diferentes opciones de configuración del servidor, la instalación en términos generales es bastante sencilla:
