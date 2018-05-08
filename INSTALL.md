@@ -17,6 +17,9 @@ També es pot instal·lar una versió específica si, per exemple, volem alinear
 Documentació Globaleaks:
 - [GlobaLeaks Documentation](https://globaleaks.readthedocs.io/en/latest/)
 
+| El codi i configuracións d'aquest repositori ha sigut provat amb la versió més recent de la branca 2. |
+| En aquest moment es treballa amb l'actualització a la versió 3. Podeu contactar amb nosaltres per qualsevol consulta al respecte. |
+
 ### Instal·lació
 
 A banda de [revisar els requeriments tècnics](https://globaleaks.readthedocs.io/en/latest/TechnicalRequirements.html), i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
