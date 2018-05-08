@@ -18,8 +18,8 @@ Documentació Globaleaks:
 - [GlobaLeaks Documentation](https://globaleaks.readthedocs.io/en/latest/)
 
 ### Versió 
-El codi i configuracions d'aquest repositori ha sigut provat amb la versió més recent de la branca 2: **2.72.31 - 2018-01-15**
-
+El codi i configuracions d'aquest repositori ha sigut provat amb la versió més recent de la branca 2: 
+  **2.72.31 - 2018-01-15**
 En aquest moment es treballa amb l'actualització a la versió 3. Podeu contactar amb nosaltres per qualsevol consulta al respecte. 
 
 ### Instal·lació
