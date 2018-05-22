@@ -58,7 +58,7 @@ llista de les funcionalitats i de les millores implementades a la Bústia:
 - creació d'una imatge gràfica més moderna, reestructuració d'alguns continguts per millorar la comprensió, formatació d'alguns textos per millorar la lectura _(fitxers js, css, i miniatures d'imatge)_
 - traduccions al català:
 	- de la interfície de globaleaks: [literals de l'aplicació](https://www.transifex.com/otf/globaleaks/)
-	- del web del projecte: [globaleaks.org/ca/](https://www.globaleaks.org/ca/)	(_pendent de publicació_)
+	- del web del projecte: [globaleaks.org/ca/](https://www.globaleaks.org/ca/)	
 - nomenclatura pròpia: adaptacions de traduccions dins el producte
 - configuració qüestionaris que respectin la normativa vigent (LOPD). Construcció d'un fitxer de configuració importable per a la ràpida creació del qüestionari _(fitxer importable json proporcionat en aquest repositori)_
 - detecció i correcció d'[errors del producte](https://github.com/globaleaks/GlobaLeaks/issues?utf8=%E2%9C%93&q=label%3A%22X%3A%20MH96DX%22%20)
