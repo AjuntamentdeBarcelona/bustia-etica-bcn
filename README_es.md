@@ -25,8 +25,8 @@ por el Ayuntamiento de Barcelona como extensión del software 'GlobaLeaks', desa
 
 Su  código es libre, modificable y replicable siempre y cuando se reconozca e indique expresamente 
 la autoría en partes iguales de Xnet y del Ayuntamiento de Barcelona: 
--firmando el correspondiente protocolo de reconocimiento, y 
--indicando la siguiente frase textual en el pie de página 
+- firmando el correspondiente protocolo de reconocimiento, y 
+- indicando la siguiente frase textual en el pie de página 
 (tanto en la web del aplicativo GlobaLeaks, como en la web informativa que describa
 el funcionamiento y protocolos sobre requisitos, seguimiento, ámbitos de actuación y objetivos,
 definición de comunicación anónima, etc.):
@@ -193,20 +193,17 @@ Hace tratamiento:
 
 -------------------------------------------------------------------------------------------------------------------------
 
-
 ## 5. Instalación
 
 En este repositorio se incluye el detalle de la configuración usada por el Buzón, y se adjuntan todos los ficheros de código desarrollados.
 - Consultar el detalle en el fichero [INSTALL_es.md](INSTALL_es.md)
-
 
 -------------------------------------------------------------------------------------------------------------------------
 
 ## 6. Datos de contacto
 
 Para compartiros nuestra experiencia de implantación, asesoramiento de aspectos legales a tener en cuenta, y firmar el protocolo de reconocimiento (licencia), contacte con:
-• analisi_transparencia@bcn.cat
-• Dirección de Análisis, Dirección para la Transparencia y las Buenas Prácticas, Ayuntamiento de Barcelona
-
+- analisi_transparencia@bcn.cat
+- Dirección de Análisis, Dirección para la Transparencia y las Buenas Prácticas, Ayuntamiento de Barcelona
 
 -------------------------------------------------------------------------------------------------------------------------
