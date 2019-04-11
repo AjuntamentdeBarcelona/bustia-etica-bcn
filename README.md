@@ -15,14 +15,24 @@
 
 ## 1. Llicència de la Bústia Ètica i de Bon Govern
 
-La [Bústia Ètica i de Bon Govern](https://ajuntament.barcelona.cat/bustiaetica/ca) és un canal segur que permet la participació anònima de la ciutadania per conèixer qualsevol acció o omissió contrària als principis del bon govern i així reforçar la gestió pública.
+La 'Bústia Ètica i de Bon Govern' és un canal segur que permet la participació anònima de la 
+ciutadania per conèixer qualsevol acció o omissió contrària als principis del bon govern i així
+reforçar la gestió pública.
 
-Proposada i creada per l'organització independent [Xnet](https://xnet-x.net/ca/), ha estat desenvolupada i implementada per l'[Ajuntament de Barcelona](http://www.barcelona.cat/ca/) com a extensió del programari [Globaleaks](https://www.globaleaks.org/), desenvolupat per el _[Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/)_.
+Proposada i creada per l'organització independent 'Xnet', ha estat desenvolupada i implementada per 
+l'Ajuntament de Barcelona com a extensió del programari 'GlobaLeaks', desenvolupat per el 'Hermes Center 
+for Transparency and Digital Human Rights'.
 
-El seu codi és lliure, modificable i replicable sempre que es reconegui i indiqui expressament l'autoria en parts iguals de Xnet i l'Ajuntament de Barcelona, indicant la següent frase textual al peu de pàgina: "Eina creada per [Xnet](https://xnet-x.net/ca/) i [Ajuntament de Barcelona](http://www.barcelona.cat/ca/). Powered by [Globaleaks](https://www.globaleaks.org/)"
+El seu codi és lliure, modificable i replicable sempre que es reconegui i indiqui expressament 
+l'autoria en parts iguals de Xnet i l'Ajuntament de Barcelona: 
+-signant el corresponent protocol de reconeixement, i 
+-indicant la següent frase textual al peu de pàgina 
+(tant en el web de l’aplicatiu GlobaLeaks, com en el web informatiu que en descrigui 
+el funcionament i protocols sobre requisits, seguiment, àmbits d'actuació i objectius, 
+definició de comunicació anònima, etc.): 
+"Eina creada per Xnet i Ajuntament de Barcelona. Powered by GlobaLeaks"
 
-L'ús del codi de l'aplicació Globaleaks està sota les condicions de la [llicència utilitzada per la mateixa](https://github.com/globaleaks/GlobaLeaks/blob/master/LICENSE).
-
+L'ús del codi de l'aplicació GlobaLeaks està sota les condicions de la llicència utilitzada per la mateixa.
 
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -194,9 +204,8 @@ En aquest repositori s'inclou el detall de la  configuració usada per la Bústi
 
 ## 6. Dades de contacte
 
-Per a consultes tècniques de instal·lació i configuració:
-- Joan Bitlloch <jbitlloch@bcn.cat>
-- Direcció de Desenvolupament de l'Institut Municipal d'Informàtica, Ajuntament de Barcelona
-
+Per a compartir-vos la nostra experiència de implantació, assessorament d’aspectes legals a tenir en compte, i signatura del protocol de reconeixement (llicència), contacteu amb:
+- <analisi_transparencia@bcn.cat> 
+- Direcció d’Anàlisi, Direcció per a la Transparència i les Bones Pràctiques, Ajuntament de Barcelona
 
 -------------------------------------------------------------------------------------------------------------------------
