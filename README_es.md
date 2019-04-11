@@ -15,14 +15,24 @@
 
 ## 1. Licencia del Buzón Ético y de Buen Gobierno
 
-La [Buzón Ético y de Buen Gobierno](https://ajuntament.barcelona.cat/bustiaetica/es) es un canal seguro que permite la participación anónima de la ciudadanía para conocer cualquier acción u omisión contraria a los principios del buen gobierno y así reforzar la gestión pública.
+ El 'Buzón Ético y de Buen Gobierno' es un canal seguro que permite la participación anónima 
+ de la ciudadanía para conocer cualquier acción u omisión contraria a los principios del buen 
+ gobierno y así reforzar la gestión pública.
 
-Una vez propuesta y creada por la organización independiente [Xnet](https://xnet-x.net/es/), ha sido desarrollada e implementada por el [Ayuntamiento de Barcelona](http://www.barcelona.cat/es/) como a extensión del programa [Globaleaks](https://www.globaleaks.org/), desarrollado por el _[Hermes Center for Transparency and Digital Human Rights](https://www.hermescenter.org/)_.
+Propuesta y creada por la organización independiente 'Xnet', ha sido desarrollada e implementada 
+por el Ayuntamiento de Barcelona como extensión del software 'GlobaLeaks', desarrollado por el 
+'Hermes Center for Transparency and Digital Human Rights'.
 
-Su código es libre, modificable y replicable siempre que se reconozca e indique expresamente la autoría en partes iguales de Xnet y el Ayuntamiento de Barcelona, indicando la siguiente frase textual al pie de página: "Herramienta creada por [Xnet](https://xnet-x.net/es/) y [Ayuntamiento de Barcelona](http://www.barcelona.cat/es/). Powered by [Globaleaks](https://www.globaleaks.org/)"
+Su  código es libre, modificable y replicable siempre y cuando se reconozca e indique expresamente 
+la autoría en partes iguales de Xnet y del Ayuntamiento de Barcelona: 
+-firmando el correspondiente protocolo de reconocimiento, y 
+-indicando la siguiente frase textual en el pie de página 
+(tanto en la web del aplicativo GlobaLeaks, como en la web informativa que describa
+el funcionamiento y protocolos sobre requisitos, seguimiento, ámbitos de actuación y objetivos,
+definición de comunicación anónima, etc.):
+"Herramienta creada por  Xnet y Ajuntament de Barcelona. Powered by GlobaLeaks"
 
-El uso del código de la aplicación Globaleaks está bajo las condiciones de la [licencia utilizada por la misma](https://github.com/globaleaks/GlobaLeaks/blob/master/LICENSE).
-
+El uso del código de la aplicación GlobaLeaks está bajo las condiciones de la licencia utilizada por la misma.
 
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -194,9 +204,9 @@ En este repositorio se incluye el detalle de la configuración usada por el Buz�
 
 ## 6. Datos de contacto
 
-Para consultas técnicas de instalación y configuración:
-- Joan Bitlloch <jbitlloch@bcn.cat>
-- Dirección de Desarrollo del Instituto Municipal de Informática, Ayuntamiento de Barcelona
+Para compartiros nuestra experiencia de implantación, asesoramiento de aspectos legales a tener en cuenta, y firmar el protocolo de reconocimiento (licencia), contacte con:
+• analisi_transparencia@bcn.cat
+• Dirección de Análisis, Dirección para la Transparencia y las Buenas Prácticas, Ayuntamiento de Barcelona
 
 
 -------------------------------------------------------------------------------------------------------------------------
