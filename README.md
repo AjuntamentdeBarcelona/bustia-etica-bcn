@@ -25,8 +25,8 @@ for Transparency and Digital Human Rights'.
 
 El seu codi és lliure, modificable i replicable sempre que es reconegui i indiqui expressament 
 l'autoria en parts iguals de Xnet i l'Ajuntament de Barcelona: 
--signant el corresponent protocol de reconeixement, i 
--indicant la següent frase textual al peu de pàgina 
+- signant el corresponent protocol de reconeixement, i 
+- indicant la següent frase textual al peu de pàgina 
 (tant en el web de l’aplicatiu GlobaLeaks, com en el web informatiu que en descrigui 
 el funcionament i protocols sobre requisits, seguiment, àmbits d'actuació i objectius, 
 definició de comunicació anònima, etc.): 
