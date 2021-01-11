@@ -1,4 +1,4 @@
-**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan. Contact us if you need a Spanish or English translation (check our mail at the end of the document).
+**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan and [Spanish](https://github.com/AjuntamentdeBarcelona/bustia-etica-bcn/blob/master/README_es.md). Contact us if you need an English translation (check our mail at the end of the document).
 
 
 # _Llegeix-me_ - Bústia Ètica i de Bon Govern
@@ -68,10 +68,10 @@ llista de les funcionalitats i de les millores implementades a la Bústia:
 - creació d'una imatge gràfica més moderna, reestructuració d'alguns continguts per millorar la comprensió, formatació d'alguns textos per millorar la lectura _(fitxers js, css, i miniatures d'imatge)_
 - traduccions al català:
 	- de la interfície de globaleaks: [literals de l'aplicació](https://www.transifex.com/otf/globaleaks/)
-	- del web del projecte: [globaleaks.org/ca/](https://www.globaleaks.org/ca/)	
+	- del web del projecte: [globaleaks.org](https://www.globaleaks.org)	
 - nomenclatura pròpia: adaptacions de traduccions dins el producte
 - configuració qüestionaris que respectin la normativa vigent (LOPD). Construcció d'un fitxer de configuració importable per a la ràpida creació del qüestionari _(fitxer importable json proporcionat en aquest repositori)_
-- detecció i correcció d'[errors del producte](https://github.com/globaleaks/GlobaLeaks/issues?utf8=%E2%9C%93&q=label%3A%22X%3A%20MH96DX%22%20)
+- detecció i correcció d'[errors del producte](https://github.com/globaleaks/GlobaLeaks/issues)
 
 
 _En aquest projecte es proporciona tot el detall de la configuració usada, i s'inclouen tots els desenvolupaments realitzats, per tal que es puguin usar en d'altres bústies, sempre d'acord amb la [llicència d'ús](LICENSE)._ 
