@@ -15,24 +15,21 @@ Con el fin de llevar a cabo la instalación del Buzón Ético, el primer paso es
 También se puede instalar una versión específica si, por ejemplo, queremos alinear dos entornos (como por ejemplo desarrollo y producción).
 
 Documentación Globaleaks:
-- [GlobaLeaks Documentation](https://globaleaks.readthedocs.io/en/latest/)
+- [GlobaLeaks Documentation](https://docs.globaleaks.org)
 
 ### Versión
-El código y configuración de éste repositorio ha sido testeado con la versión más reciente de la rama 2 de globaleaks:
-- versión de globaleaks: 2.72.31 - 2018-01-15
-
-En éste momento se está trabajando en la actualización a la versión 3. Pueden contactar con nosotros para cualquier duda al respecto.
+El código y configuración de éste repositorio ha sido testeado con la versión 4.0.x de globaleaks.
 
 
 ### Instalación
 
-Aparte de [revisar los requerimientos técnicos](https://globaleaks.readthedocs.io/en/latest/TechnicalRequirements.html), y las diferentes opciones de configuración del servidor, la instalación en términos generales es bastante sencilla:
-- [instalación de sistema](https://globaleaks.readthedocs.io/en/latest/InstallationGuide.html)
+Aparte de [revisar los requerimientos técnicos](https://docs.globaleaks.org/en/latest/gettingstarted/Requirements.html), y las diferentes opciones de configuración del servidor, la instalación en términos generales es bastante sencilla:
+- [instalación de sistema](https://docs.globaleaks.org/en/latest/setup/InstallationGuide.html)
   - descarga del script de instalación (_install-globaleaks.sh_) desde el repositorio oficial
   - ejecutar el script
   - anotar las URLs de acceso, que se proporcionan una vez instalado
 
-- ejecutar el [asistente de configuración](https://globaleaks.readthedocs.io/en/latest/ConfigurationGuide.html)
+- ejecutar el [asistente de configuración](https://docs.globaleaks.org/en/latest/setup/PlatformWizard.html)
   - abrir la URL dada durante la instalación en un navegador
   - escoge idioma del asistente
   - nombre y descripción de la iniciativa
@@ -179,7 +176,7 @@ En este apartado se detalla la configuración adoptada por el cuestionario que s
 Se aconseja la importación automática del formulario, dado que configurarlo a mano es bastante trabajo:
 para importar el cuestionario:
     - acceder al menú _Configuración de Cuestionarios > Configuración de Cuestionarios_
-    - Clicar IMPORTAR, y seleccionar el fichero [Qüestionari Bústia Ètica i de Bon Govern.json](questionnaire) del repositorio
+    - Clicar IMPORTAR, y seleccionar el fichero [Bustia Etica.json](questionnaire) del repositorio
 
 para configurar el contexto:
     - acceder al menú _Configuración de Contextos_
@@ -394,6 +391,7 @@ Ficheros estáticos de imágenes y fuentes de letra:
 	- bustia_etica_icona_aplicacio_140x140.png
 	- Menys.png
 	- Mes.png
+	- Xnet.png
 - Fuentes de letra:
 	- Las fuentes de letra tienen la suya propia [llicència Open Font](theme/static-files/LICENSE).
 	- SourceSansPro-Bold.eot 
@@ -422,7 +420,7 @@ Ficheros estáticos de imágenes y fuentes de letra:
 	- SourceSansPro-Semibold.ttf.woff2
 
 Para más información
-- Documentación Globaleaks sobre la personalización del tema:  [Customization guide](https://github.com/globaleaks/GlobaLeaks/wiki/Customization-guide)
+- Documentación Globaleaks sobre la personalización del tema:  [Customization guide](https://docs.globaleaks.org/en/main/user/admin/UserInterface.html)
 
 ---
 
