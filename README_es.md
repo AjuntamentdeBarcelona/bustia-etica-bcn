@@ -1,4 +1,4 @@
-**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in Catalan. Contact us if you need an English translation (check our mail at the end of the document).
+**Note**: Initially this project is mainly oriented to Catalan institutions, and at this moment the documentation is only in [Catalan](https://github.com/AjuntamentdeBarcelona/bustia-etica-bcn/blob/master/README.md) and Spanish. Contact us if you need an English translation (check our mail at the end of the document).
 
 
 # _Léeme_ - Buzón Ético y de Buen Gobierno
@@ -68,10 +68,10 @@ lista de las funcionalidades y de las mejoras implementadas en el Buzón:
 - creación de una imagen gráfica más moderna, reestructuración de algunos contenidos para mejorar la comprensión, formateo de algunos textos para mejorar la lectura _(ficheros js, css, y miniaturas de imagen)_
 - traducciones al catalàn:
 	- de la interficie de globaleaks: [literals de l'aplicació](https://www.transifex.com/otf/globaleaks/)
-	- del web del proyecto: [globaleaks.org/ca/](https://www.globaleaks.org/ca/)	(_pendient de publicación_)
+	- del web del proyecto: [globaleaks.org](https://www.globaleaks.org)	
 - nomenclatura propia: adaptaciones de traducciones dentro el producto
 - configuración cuestionarios que respeten la normativa vigente (LOPD). Construcción de un fichero de configuración importable para la rápida creación del cuestionario _(fichero importable json proporcionado en este repositorio)_
-- detección y corrección de [errores del producto](https://github.com/globaleaks/GlobaLeaks/issues?utf8=%E2%9C%93&q=label%3A%22X%3A%20MH96DX%22%20)
+- detección y corrección de [errores del producto](https://github.com/globaleaks/GlobaLeaks/issues)
 
 
 _En este proyecto se proporciona todo el detalle de la configuración usada, y se incluyen todos los desarrollos realizados, a fin de que se puedan usar en otros buzones, siempre de acuerdo con la [licencia de uso](LICENSE)._ 
