@@ -15,23 +15,20 @@ Per tal de dur a terme la instal·lació de la Bústia Ètica, el primer pas és
 També es pot instal·lar una versió específica si, per exemple, volem alinear dos entorns (com per exemple desenvolupament i producció).
 
 Documentació Globaleaks:
-- [GlobaLeaks Documentation](https://globaleaks.readthedocs.io/en/latest/)
+- [GlobaLeaks Documentation](https://docs.globaleaks.org)
 
 ### Versió 
-El codi i configuracions d'aquest repositori ha sigut provat amb la versió més recent de la branca 2: 
-- versió de globaleaks:  **2.72.31 - 2018-01-15**
-
-En aquest moment es treballa amb l'actualització a la versió 3. Podeu contactar amb nosaltres per qualsevol consulta al respecte. 
+El codi i configuracions d'aquest repositori ha sigut provat amb la versió globaleaks 4.0.x 
 
 ### Instal·lació
 
-A banda de [revisar els requeriments tècnics](https://globaleaks.readthedocs.io/en/latest/TechnicalRequirements.html), i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
-- [instal·lació de sistema](https://globaleaks.readthedocs.io/en/latest/InstallationGuide.html)
+A banda de [revisar els requeriments tècnics](https://docs.globaleaks.org/en/latest/gettingstarted/Requirements.html), i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
+- [instal·lació de sistema](https://docs.globaleaks.org/en/latest/setup/InstallationGuide.html)
   - descàrrega de l'script d'instal·lació (_install-globaleaks.sh_) des del repositori oficial
   - executar l'script
   - anotar les URLs d'accés, que es proporcionen un cop instal·lat 
 
-- executar l'[assistent de configuració](https://globaleaks.readthedocs.io/en/latest/ConfigurationGuide.html)
+- executar l'[assistent de configuració](https://docs.globaleaks.org/en/latest/setup/PlatformWizard.html)
   - obrir la URL donada durant la instal·lació en un navegador
   - escull idioma de l'assistent
   - nom i descripció de la iniciativa
@@ -177,7 +174,7 @@ En aquest apartat detalla la configuració adoptada per el qüestionari que es m
 S'aconsella la importació automàtica del formulari, donat que configurar-ho a mà és força feina:
  per importar el qüestionari:
     - accedir al menú _Configuració de Qüestionaris > Configuració de Qüestionaris_
-    - Clicar IMPORTA, i seleccionar el fitxer [Qüestionari Bústia Ètica i de Bon Govern.json](questionnaire) del repositori
+    - Clicar IMPORTA, i seleccionar el fitxer [Bústia Ètica.json](questionnaire) del repositori
 
 per configurar el context:
     - accedir al menú _Configuració de Contextos_
@@ -393,6 +390,7 @@ Fitxers estàtics d'imatges i fonts de lletra:
 	- bustia_etica_icona_aplicacio_140x140.png
 	- Menys.png
 	- Mes.png
+	- Xnet.png
 - Fonts de lletra:
 	- Els fonts de lletra tenen la seva pròpia [llicència Open Font](theme/static-files/LICENSE).
 	- SourceSansPro-Bold.eot 
@@ -421,7 +419,7 @@ Fitxers estàtics d'imatges i fonts de lletra:
 	- SourceSansPro-Semibold.ttf.woff2
 
 Per a més informació
-- Documentació Globaleaks sobre la personalització del tema:  [Customization guide](https://github.com/globaleaks/GlobaLeaks/wiki/Customization-guide)
+- Documentació Globaleaks sobre la personalització del tema:  [User interface](https://docs.globaleaks.org/en/latest/user/admin/UserInterface.html)
 
 ---
 
