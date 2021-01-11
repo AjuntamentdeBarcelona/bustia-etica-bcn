@@ -8,7 +8,7 @@
 3. Aportacions de Xnet i Ajuntament de Barcelona a Globaleaks
 4. Introducció a la Bústia Ètica i de Bon Govern: Funcionament i Seguretat
 5. Instal·lació i configuració
-6. Dades de contacte
+6. Dades de contacte 
 
 
 -------------------------------------------------------------------------------------------------------------------------
