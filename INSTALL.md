@@ -22,13 +22,13 @@ El codi i configuracions d'aquest repositori ha sigut provat amb la versió glob
 
 ### Instal·lació
 
-A banda de [revisar els requeriments tècnics](https://docs.globaleaks.org/en/latest/gettingstarted/Requirements.html), i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
-- [instal·lació de sistema](https://docs.globaleaks.org/en/latest/setup/InstallationGuide.html)
+A banda de [revisar els requeriments tècnics](https://docs.globaleaks.org/en/stable/technical/requirements.html), i les diferents opcions de configuració de servidor, la instal·lació en termes generals és força senzilla:
+- [instal·lació de sistema](https://docs.globaleaks.org/en/stable/setup/installation.html)
   - descàrrega de l'script d'instal·lació (_install-globaleaks.sh_) des del repositori oficial
   - executar l'script
   - anotar les URLs d'accés, que es proporcionen un cop instal·lat 
 
-- executar l'[assistent de configuració](https://docs.globaleaks.org/en/latest/setup/PlatformWizard.html)
+- executar l'assistent de configuració
   - obrir la URL donada durant la instal·lació en un navegador
   - escull idioma de l'assistent
   - nom i descripció de la iniciativa
