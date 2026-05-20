@@ -23,13 +23,13 @@ El código y configuración de éste repositorio ha sido testeado con la versió
 
 ### Instalación
 
-Aparte de [revisar los requerimientos técnicos](https://docs.globaleaks.org/en/latest/gettingstarted/Requirements.html), y las diferentes opciones de configuración del servidor, la instalación en términos generales es bastante sencilla:
-- [instalación de sistema](https://docs.globaleaks.org/en/latest/setup/InstallationGuide.html)
+Aparte de [revisar los requerimientos técnicos](https://docs.globaleaks.org/en/stable/technical/requirements.html), y las diferentes opciones de configuración del servidor, la instalación en términos generales es bastante sencilla:
+- [instalación de sistema](https://docs.globaleaks.org/en/stable/setup/installation.html)
   - descarga del script de instalación (_install-globaleaks.sh_) desde el repositorio oficial
   - ejecutar el script
   - anotar las URLs de acceso, que se proporcionan una vez instalado
 
-- ejecutar el [asistente de configuración](https://docs.globaleaks.org/en/latest/setup/PlatformWizard.html)
+- ejecutar el asistente de configuración
   - abrir la URL dada durante la instalación en un navegador
   - escoge idioma del asistente
   - nombre y descripción de la iniciativa
